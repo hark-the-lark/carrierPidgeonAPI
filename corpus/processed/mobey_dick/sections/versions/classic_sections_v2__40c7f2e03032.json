@@ -1,0 +1,796 @@
+{
+  "doc_id": "mobey_dick",
+  "strategy": {
+    "name": "classic_sections",
+    "version": "v2"
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraph"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "Mobey Dick",
+        "chapters": [
+          {
+            "id": 1,
+            "title": "CHAPTER 135. The Chase.—Third Day.",
+            "start_char": 4483,
+            "end_char": 26434
+          },
+          {
+            "id": 2,
+            "title": "CHAPTER 1. Loomings.",
+            "start_char": 26434,
+            "end_char": 38630
+          },
+          {
+            "id": 3,
+            "title": "CHAPTER 2. The Carpet-Bag.",
+            "start_char": 38630,
+            "end_char": 46563
+          },
+          {
+            "id": 4,
+            "title": "CHAPTER 3. The Spouter-Inn.",
+            "start_char": 46563,
+            "end_char": 78485
+          },
+          {
+            "id": 5,
+            "title": "CHAPTER 4. The Counterpane.",
+            "start_char": 78485,
+            "end_char": 87610
+          },
+          {
+            "id": 6,
+            "title": "CHAPTER 5. Breakfast.",
+            "start_char": 87610,
+            "end_char": 91800
+          },
+          {
+            "id": 7,
+            "title": "CHAPTER 6. The Street.",
+            "start_char": 91800,
+            "end_char": 96614
+          },
+          {
+            "id": 8,
+            "title": "CHAPTER 7. The Chapel.",
+            "start_char": 96614,
+            "end_char": 101981
+          },
+          {
+            "id": 9,
+            "title": "CHAPTER 8. The Pulpit.",
+            "start_char": 101981,
+            "end_char": 107391
+          },
+          {
+            "id": 10,
+            "title": "CHAPTER 9. The Sermon.",
+            "start_char": 107391,
+            "end_char": 127172
+          },
+          {
+            "id": 11,
+            "title": "CHAPTER 10. A Bosom Friend.",
+            "start_char": 127172,
+            "end_char": 135873
+          },
+          {
+            "id": 12,
+            "title": "CHAPTER 11. Nightgown.",
+            "start_char": 135873,
+            "end_char": 139824
+          },
+          {
+            "id": 13,
+            "title": "CHAPTER 12. Biographical.",
+            "start_char": 139824,
+            "end_char": 144709
+          },
+          {
+            "id": 14,
+            "title": "CHAPTER 13. Wheelbarrow.",
+            "start_char": 144709,
+            "end_char": 154395
+          },
+          {
+            "id": 15,
+            "title": "CHAPTER 14. Nantucket.",
+            "start_char": 154395,
+            "end_char": 158736
+          },
+          {
+            "id": 16,
+            "title": "CHAPTER 15. Chowder.",
+            "start_char": 158736,
+            "end_char": 165324
+          },
+          {
+            "id": 17,
+            "title": "CHAPTER 16. The Ship.",
+            "start_char": 165324,
+            "end_char": 195752
+          },
+          {
+            "id": 18,
+            "title": "CHAPTER 17. The Ramadan.",
+            "start_char": 195752,
+            "end_char": 208374
+          },
+          {
+            "id": 19,
+            "title": "CHAPTER 18. His Mark.",
+            "start_char": 208374,
+            "end_char": 216057
+          },
+          {
+            "id": 20,
+            "title": "CHAPTER 19. The Prophet.",
+            "start_char": 216057,
+            "end_char": 222595
+          },
+          {
+            "id": 21,
+            "title": "CHAPTER 20. All Astir.",
+            "start_char": 222595,
+            "end_char": 227754
+          },
+          {
+            "id": 22,
+            "title": "CHAPTER 21. Going Aboard.",
+            "start_char": 227754,
+            "end_char": 233880
+          },
+          {
+            "id": 23,
+            "title": "CHAPTER 22. Merry Christmas.",
+            "start_char": 233880,
+            "end_char": 243058
+          },
+          {
+            "id": 24,
+            "title": "CHAPTER 23. The Lee Shore.",
+            "start_char": 243058,
+            "end_char": 245235
+          },
+          {
+            "id": 25,
+            "title": "CHAPTER 24. The Advocate.",
+            "start_char": 245235,
+            "end_char": 254922
+          },
+          {
+            "id": 26,
+            "title": "CHAPTER 26. Knights and Squires.",
+            "start_char": 256541,
+            "end_char": 263572
+          },
+          {
+            "id": 27,
+            "title": "CHAPTER 27. Knights and Squires.",
+            "start_char": 263572,
+            "end_char": 273087
+          },
+          {
+            "id": 28,
+            "title": "CHAPTER 28. Ahab.",
+            "start_char": 273087,
+            "end_char": 281167
+          },
+          {
+            "id": 29,
+            "title": "CHAPTER 29. Enter Ahab; to Him, Stubb.",
+            "start_char": 281167,
+            "end_char": 287725
+          },
+          {
+            "id": 30,
+            "title": "CHAPTER 31. Queen Mab.",
+            "start_char": 289327,
+            "end_char": 293770
+          },
+          {
+            "id": 31,
+            "title": "CHAPTER 32. Cetology.",
+            "start_char": 293770,
+            "end_char": 323601
+          },
+          {
+            "id": 32,
+            "title": "CHAPTER 33. The Specksnyder.",
+            "start_char": 323601,
+            "end_char": 329420
+          },
+          {
+            "id": 33,
+            "title": "CHAPTER 34. The Cabin-Table.",
+            "start_char": 329420,
+            "end_char": 342110
+          },
+          {
+            "id": 34,
+            "title": "CHAPTER 35. The Mast-Head.",
+            "start_char": 342110,
+            "end_char": 356858
+          },
+          {
+            "id": 35,
+            "title": "CHAPTER 36. The Quarter-Deck.",
+            "start_char": 356858,
+            "end_char": 372680
+          },
+          {
+            "id": 36,
+            "title": "CHAPTER 37. Sunset.",
+            "start_char": 372680,
+            "end_char": 375451
+          },
+          {
+            "id": 37,
+            "title": "CHAPTER 38. Dusk.",
+            "start_char": 375451,
+            "end_char": 377543
+          },
+          {
+            "id": 38,
+            "title": "CHAPTER 40. Midnight, Forecastle.",
+            "start_char": 379014,
+            "end_char": 387876
+          },
+          {
+            "id": 39,
+            "title": "CHAPTER 41. Moby Dick.",
+            "start_char": 387876,
+            "end_char": 409829
+          },
+          {
+            "id": 40,
+            "title": "CHAPTER 42. The Whiteness of the Whale.",
+            "start_char": 409829,
+            "end_char": 430952
+          },
+          {
+            "id": 41,
+            "title": "CHAPTER 44. The Chart.",
+            "start_char": 432674,
+            "end_char": 444705
+          },
+          {
+            "id": 42,
+            "title": "CHAPTER 45. The Affidavit.",
+            "start_char": 444705,
+            "end_char": 464819
+          },
+          {
+            "id": 43,
+            "title": "CHAPTER 46. Surmises.",
+            "start_char": 464819,
+            "end_char": 470809
+          },
+          {
+            "id": 44,
+            "title": "CHAPTER 47. The Mat-Maker.",
+            "start_char": 470809,
+            "end_char": 476164
+          },
+          {
+            "id": 45,
+            "title": "CHAPTER 48. The First Lowering.",
+            "start_char": 476164,
+            "end_char": 498587
+          },
+          {
+            "id": 46,
+            "title": "CHAPTER 49. The Hyena.",
+            "start_char": 498587,
+            "end_char": 503269
+          },
+          {
+            "id": 47,
+            "title": "CHAPTER 50. Ahab’s Boat and Crew. Fedallah.",
+            "start_char": 503269,
+            "end_char": 509010
+          },
+          {
+            "id": 48,
+            "title": "CHAPTER 51. The Spirit-Spout.",
+            "start_char": 509010,
+            "end_char": 517692
+          },
+          {
+            "id": 49,
+            "title": "CHAPTER 52. The Albatross.",
+            "start_char": 517692,
+            "end_char": 521742
+          },
+          {
+            "id": 50,
+            "title": "CHAPTER 53. The Gam.",
+            "start_char": 521742,
+            "end_char": 531105
+          },
+          {
+            "id": 51,
+            "title": "CHAPTER 54. The Town-Ho’s Story.",
+            "start_char": 531105,
+            "end_char": 575983
+          },
+          {
+            "id": 52,
+            "title": "CHAPTER 55. Of the Monstrous Pictures of Whales.",
+            "start_char": 575983,
+            "end_char": 586911
+          },
+          {
+            "id": 53,
+            "title": "CHAPTER 56. Of the Less Erroneous Pictures of Whales, and the True Pictures of Whaling Scenes.",
+            "start_char": 586911,
+            "end_char": 594490
+          },
+          {
+            "id": 54,
+            "title": "CHAPTER 57. Of Whales in Paint; in Teeth; in Wood; in Sheet-Iron; in Stone; in Mountains; in Stars.",
+            "start_char": 594490,
+            "end_char": 600057
+          },
+          {
+            "id": 55,
+            "title": "CHAPTER 58. Brit.",
+            "start_char": 600057,
+            "end_char": 605817
+          },
+          {
+            "id": 56,
+            "title": "CHAPTER 59. Squid.",
+            "start_char": 605817,
+            "end_char": 611160
+          },
+          {
+            "id": 57,
+            "title": "CHAPTER 60. The Line.",
+            "start_char": 611160,
+            "end_char": 619372
+          },
+          {
+            "id": 58,
+            "title": "CHAPTER 61. Stubb Kills a Whale.",
+            "start_char": 619372,
+            "end_char": 630464
+          },
+          {
+            "id": 59,
+            "title": "CHAPTER 62. The Dart.",
+            "start_char": 630464,
+            "end_char": 633613
+          },
+          {
+            "id": 60,
+            "title": "CHAPTER 63. The Crotch.",
+            "start_char": 633613,
+            "end_char": 636446
+          },
+          {
+            "id": 61,
+            "title": "CHAPTER 64. Stubb’s Supper.",
+            "start_char": 636446,
+            "end_char": 652924
+          },
+          {
+            "id": 62,
+            "title": "CHAPTER 65. The Whale as a Dish.",
+            "start_char": 652924,
+            "end_char": 658409
+          },
+          {
+            "id": 63,
+            "title": "CHAPTER 66. The Shark Massacre.",
+            "start_char": 658409,
+            "end_char": 662033
+          },
+          {
+            "id": 64,
+            "title": "CHAPTER 67. Cutting In.",
+            "start_char": 662033,
+            "end_char": 666236
+          },
+          {
+            "id": 65,
+            "title": "CHAPTER 68. The Blanket.",
+            "start_char": 666236,
+            "end_char": 673012
+          },
+          {
+            "id": 66,
+            "title": "CHAPTER 69. The Funeral.",
+            "start_char": 673012,
+            "end_char": 675526
+          },
+          {
+            "id": 67,
+            "title": "CHAPTER 70. The Sphynx.",
+            "start_char": 675526,
+            "end_char": 680567
+          },
+          {
+            "id": 68,
+            "title": "CHAPTER 71. The Jeroboam’s Story.",
+            "start_char": 680567,
+            "end_char": 693730
+          },
+          {
+            "id": 69,
+            "title": "CHAPTER 72. The Monkey-Rope.",
+            "start_char": 693730,
+            "end_char": 703025
+          },
+          {
+            "id": 70,
+            "title": "CHAPTER 73. Stubb and Flask kill a Right Whale; and Then Have a Talk over Him.",
+            "start_char": 703025,
+            "end_char": 714620
+          },
+          {
+            "id": 71,
+            "title": "CHAPTER 74. The Sperm Whale’s Head—Contrasted View.",
+            "start_char": 714620,
+            "end_char": 723706
+          },
+          {
+            "id": 72,
+            "title": "CHAPTER 75. The Right Whale’s Head—Contrasted View.",
+            "start_char": 723706,
+            "end_char": 730520
+          },
+          {
+            "id": 73,
+            "title": "CHAPTER 76. The Battering-Ram.",
+            "start_char": 730520,
+            "end_char": 735582
+          },
+          {
+            "id": 74,
+            "title": "CHAPTER 77. The Great Heidelburgh Tun.",
+            "start_char": 735582,
+            "end_char": 739384
+          },
+          {
+            "id": 75,
+            "title": "CHAPTER 78. Cistern and Buckets.",
+            "start_char": 739384,
+            "end_char": 748671
+          },
+          {
+            "id": 76,
+            "title": "CHAPTER 79. The Prairie.",
+            "start_char": 748671,
+            "end_char": 754054
+          },
+          {
+            "id": 77,
+            "title": "CHAPTER 80. The Nut.",
+            "start_char": 754054,
+            "end_char": 759204
+          },
+          {
+            "id": 78,
+            "title": "CHAPTER 81. The Pequod Meets The Virgin.",
+            "start_char": 759204,
+            "end_char": 783595
+          },
+          {
+            "id": 79,
+            "title": "CHAPTER 82. The Honor and Glory of Whaling.",
+            "start_char": 783595,
+            "end_char": 790099
+          },
+          {
+            "id": 80,
+            "title": "CHAPTER 83. Jonah Historically Regarded.",
+            "start_char": 790099,
+            "end_char": 794634
+          },
+          {
+            "id": 81,
+            "title": "CHAPTER 84. Pitchpoling.",
+            "start_char": 794634,
+            "end_char": 799320
+          },
+          {
+            "id": 82,
+            "title": "CHAPTER 85. The Fountain.",
+            "start_char": 799320,
+            "end_char": 810783
+          },
+          {
+            "id": 83,
+            "title": "CHAPTER 86. The Tail.",
+            "start_char": 810783,
+            "end_char": 821209
+          },
+          {
+            "id": 84,
+            "title": "CHAPTER 87. The Grand Armada.",
+            "start_char": 821209,
+            "end_char": 848882
+          },
+          {
+            "id": 85,
+            "title": "CHAPTER 88. Schools and Schoolmasters.",
+            "start_char": 848882,
+            "end_char": 855992
+          },
+          {
+            "id": 86,
+            "title": "CHAPTER 89. Fast-Fish and Loose-Fish.",
+            "start_char": 855992,
+            "end_char": 864165
+          },
+          {
+            "id": 87,
+            "title": "CHAPTER 90. Heads or Tails.",
+            "start_char": 864165,
+            "end_char": 870053
+          },
+          {
+            "id": 88,
+            "title": "CHAPTER 91. The Pequod Meets The Rose-Bud.",
+            "start_char": 870053,
+            "end_char": 884109
+          },
+          {
+            "id": 89,
+            "title": "CHAPTER 92. Ambergris.",
+            "start_char": 884109,
+            "end_char": 889630
+          },
+          {
+            "id": 90,
+            "title": "CHAPTER 93. The Castaway.",
+            "start_char": 889630,
+            "end_char": 898882
+          },
+          {
+            "id": 91,
+            "title": "CHAPTER 94. A Squeeze of the Hand.",
+            "start_char": 898882,
+            "end_char": 906187
+          },
+          {
+            "id": 92,
+            "title": "CHAPTER 95. The Cassock.",
+            "start_char": 906187,
+            "end_char": 909012
+          },
+          {
+            "id": 93,
+            "title": "CHAPTER 96. The Try-Works.",
+            "start_char": 909012,
+            "end_char": 919266
+          },
+          {
+            "id": 94,
+            "title": "CHAPTER 98. Stowing Down and Clearing Up.",
+            "start_char": 920621,
+            "end_char": 926440
+          },
+          {
+            "id": 95,
+            "title": "CHAPTER 99. The Doubloon.",
+            "start_char": 926440,
+            "end_char": 939785
+          },
+          {
+            "id": 96,
+            "title": "CHAPTER 100. Leg and Arm.",
+            "start_char": 939785,
+            "end_char": 954653
+          },
+          {
+            "id": 97,
+            "title": "CHAPTER 101. The Decanter.",
+            "start_char": 954653,
+            "end_char": 964572
+          },
+          {
+            "id": 98,
+            "title": "CHAPTER 102. A Bower in the Arsacides.",
+            "start_char": 964572,
+            "end_char": 973647
+          },
+          {
+            "id": 99,
+            "title": "CHAPTER 103. Measurement of The Whale’s Skeleton.",
+            "start_char": 973647,
+            "end_char": 978849
+          },
+          {
+            "id": 100,
+            "title": "CHAPTER 104. The Fossil Whale.",
+            "start_char": 978849,
+            "end_char": 987223
+          },
+          {
+            "id": 101,
+            "title": "CHAPTER 105. Does the Whale’s Magnitude Diminish?—Will He Perish?",
+            "start_char": 987223,
+            "end_char": 996292
+          },
+          {
+            "id": 102,
+            "title": "CHAPTER 106. Ahab’s Leg.",
+            "start_char": 996292,
+            "end_char": 1001750
+          },
+          {
+            "id": 103,
+            "title": "CHAPTER 107. The Carpenter.",
+            "start_char": 1001750,
+            "end_char": 1007981
+          },
+          {
+            "id": 104,
+            "title": "CHAPTER 108. Ahab and the Carpenter.",
+            "start_char": 1007981,
+            "end_char": 1016515
+          },
+          {
+            "id": 105,
+            "title": "CHAPTER 109. Ahab and Starbuck in the Cabin.",
+            "start_char": 1016515,
+            "end_char": 1021615
+          },
+          {
+            "id": 106,
+            "title": "CHAPTER 110. Queequeg in His Coffin.",
+            "start_char": 1021615,
+            "end_char": 1034173
+          },
+          {
+            "id": 107,
+            "title": "CHAPTER 111. The Pacific.",
+            "start_char": 1034173,
+            "end_char": 1036683
+          },
+          {
+            "id": 108,
+            "title": "CHAPTER 112. The Blacksmith.",
+            "start_char": 1036683,
+            "end_char": 1042237
+          },
+          {
+            "id": 109,
+            "title": "CHAPTER 113. The Forge.",
+            "start_char": 1042237,
+            "end_char": 1049085
+          },
+          {
+            "id": 110,
+            "title": "CHAPTER 114. The Gilder.",
+            "start_char": 1049085,
+            "end_char": 1052853
+          },
+          {
+            "id": 111,
+            "title": "CHAPTER 115. The Pequod Meets The Bachelor.",
+            "start_char": 1052853,
+            "end_char": 1058010
+          },
+          {
+            "id": 112,
+            "title": "CHAPTER 116. The Dying Whale.",
+            "start_char": 1058010,
+            "end_char": 1061006
+          },
+          {
+            "id": 113,
+            "title": "CHAPTER 117. The Whale Watch.",
+            "start_char": 1061006,
+            "end_char": 1063542
+          },
+          {
+            "id": 114,
+            "title": "CHAPTER 118. The Quadrant.",
+            "start_char": 1063542,
+            "end_char": 1068592
+          },
+          {
+            "id": 115,
+            "title": "CHAPTER 119. The Candles.",
+            "start_char": 1068592,
+            "end_char": 1082603
+          },
+          {
+            "id": 116,
+            "title": "CHAPTER 121. Midnight.—The Forecastle Bulwarks.",
+            "start_char": 1083637,
+            "end_char": 1087079
+          },
+          {
+            "id": 117,
+            "title": "CHAPTER 123. The Musket.",
+            "start_char": 1087378,
+            "end_char": 1094178
+          },
+          {
+            "id": 118,
+            "title": "CHAPTER 124. The Needle.",
+            "start_char": 1094178,
+            "end_char": 1101133
+          },
+          {
+            "id": 119,
+            "title": "CHAPTER 125. The Log and Line.",
+            "start_char": 1101133,
+            "end_char": 1107281
+          },
+          {
+            "id": 120,
+            "title": "CHAPTER 126. The Life-Buoy.",
+            "start_char": 1107281,
+            "end_char": 1114790
+          },
+          {
+            "id": 121,
+            "title": "CHAPTER 127. The Deck.",
+            "start_char": 1114790,
+            "end_char": 1118709
+          },
+          {
+            "id": 122,
+            "title": "CHAPTER 128. The Pequod Meets The Rachel.",
+            "start_char": 1118709,
+            "end_char": 1126553
+          },
+          {
+            "id": 123,
+            "title": "CHAPTER 129. The Cabin.",
+            "start_char": 1126553,
+            "end_char": 1129590
+          },
+          {
+            "id": 124,
+            "title": "CHAPTER 130. The Hat.",
+            "start_char": 1129590,
+            "end_char": 1139199
+          },
+          {
+            "id": 125,
+            "title": "CHAPTER 131. The Pequod Meets The Delight.",
+            "start_char": 1139199,
+            "end_char": 1141676
+          },
+          {
+            "id": 126,
+            "title": "CHAPTER 132. The Symphony.",
+            "start_char": 1141676,
+            "end_char": 1150453
+          },
+          {
+            "id": 127,
+            "title": "CHAPTER 133. The Chase—First Day.",
+            "start_char": 1150453,
+            "end_char": 1170783
+          },
+          {
+            "id": 128,
+            "title": "CHAPTER 134. The Chase—Second Day.",
+            "start_char": 1170783,
+            "end_char": 1189343
+          },
+          {
+            "id": 129,
+            "title": "CHAPTER 135. The Chase.—Third Day.",
+            "start_char": 1189343,
+            "end_char": 1215919
+          }
+        ]
+      }
+    ]
+  }
+}

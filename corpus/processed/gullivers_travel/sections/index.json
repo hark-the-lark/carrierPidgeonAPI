@@ -1,0 +1,21 @@
+{
+  "canonical": null,
+  "available": [
+    {
+      "id": "classic_sections_v2__40c7f2e03032",
+      "strategy": {
+        "name": "classic_sections",
+        "version": "v2"
+      },
+      "created_at": "2026-02-23T22:54:31.508480Z"
+    },
+    {
+      "id": "classic_sections_v2__40c7f2e03032",
+      "strategy": {
+        "name": "classic_sections",
+        "version": "v2"
+      },
+      "created_at": "2026-02-24T21:21:19.290748Z"
+    }
+  ]
+}

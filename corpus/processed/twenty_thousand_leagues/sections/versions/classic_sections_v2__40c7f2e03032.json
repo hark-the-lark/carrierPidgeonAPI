@@ -1,0 +1,298 @@
+{
+  "doc_id": "twenty_thousand_leagues",
+  "strategy": {
+    "name": "classic_sections",
+    "version": "v2"
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraph"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "Twenty Thousand Leagues",
+        "chapters": [
+          {
+            "id": 1,
+            "title": "CHAPTER I",
+            "start_char": 2912,
+            "end_char": 14876
+          },
+          {
+            "id": 2,
+            "title": "CHAPTER II",
+            "start_char": 14876,
+            "end_char": 24736
+          },
+          {
+            "id": 3,
+            "title": "CHAPTER III",
+            "start_char": 24736,
+            "end_char": 32660
+          },
+          {
+            "id": 4,
+            "title": "CHAPTER IV",
+            "start_char": 32660,
+            "end_char": 43690
+          },
+          {
+            "id": 5,
+            "title": "CHAPTER V",
+            "start_char": 43690,
+            "end_char": 53384
+          },
+          {
+            "id": 6,
+            "title": "CHAPTER VI",
+            "start_char": 53384,
+            "end_char": 67289
+          },
+          {
+            "id": 7,
+            "title": "CHAPTER VII",
+            "start_char": 67289,
+            "end_char": 78313
+          },
+          {
+            "id": 8,
+            "title": "CHAPTER VIII",
+            "start_char": 78313,
+            "end_char": 89785
+          },
+          {
+            "id": 9,
+            "title": "CHAPTER IX",
+            "start_char": 89785,
+            "end_char": 94827
+          },
+          {
+            "id": 10,
+            "title": "CHAPTER X",
+            "start_char": 94827,
+            "end_char": 121956
+          },
+          {
+            "id": 11,
+            "title": "CHAPTER XI",
+            "start_char": 121956,
+            "end_char": 131151
+          },
+          {
+            "id": 12,
+            "title": "CHAPTER XII",
+            "start_char": 131151,
+            "end_char": 141701
+          },
+          {
+            "id": 13,
+            "title": "CHAPTER XIII",
+            "start_char": 141701,
+            "end_char": 153267
+          },
+          {
+            "id": 14,
+            "title": "CHAPTER XIV",
+            "start_char": 153267,
+            "end_char": 166333
+          },
+          {
+            "id": 15,
+            "title": "CHAPTER XV",
+            "start_char": 166333,
+            "end_char": 176867
+          },
+          {
+            "id": 16,
+            "title": "CHAPTER XVI",
+            "start_char": 176867,
+            "end_char": 190084
+          },
+          {
+            "id": 17,
+            "title": "CHAPTER XVII",
+            "start_char": 190084,
+            "end_char": 199613
+          },
+          {
+            "id": 18,
+            "title": "CHAPTER XVIII",
+            "start_char": 199613,
+            "end_char": 214401
+          },
+          {
+            "id": 19,
+            "title": "CHAPTER XIX",
+            "start_char": 214401,
+            "end_char": 225794
+          },
+          {
+            "id": 20,
+            "title": "CHAPTER XX",
+            "start_char": 225794,
+            "end_char": 240585
+          },
+          {
+            "id": 21,
+            "title": "CHAPTER XXI",
+            "start_char": 240585,
+            "end_char": 258472
+          },
+          {
+            "id": 22,
+            "title": "CHAPTER XXII",
+            "start_char": 258472,
+            "end_char": 271294
+          },
+          {
+            "id": 23,
+            "title": "CHAPTER XXIII",
+            "start_char": 271294,
+            "end_char": 283260
+          },
+          {
+            "id": 24,
+            "title": "CHAPTER I",
+            "start_char": 283260,
+            "end_char": 297730
+          },
+          {
+            "id": 25,
+            "title": "CHAPTER II",
+            "start_char": 297730,
+            "end_char": 306316
+          },
+          {
+            "id": 26,
+            "title": "CHAPTER III",
+            "start_char": 306316,
+            "end_char": 324470
+          },
+          {
+            "id": 27,
+            "title": "CHAPTER IV",
+            "start_char": 324470,
+            "end_char": 342001
+          },
+          {
+            "id": 28,
+            "title": "CHAPTER V",
+            "start_char": 342001,
+            "end_char": 354773
+          },
+          {
+            "id": 29,
+            "title": "CHAPTER VI",
+            "start_char": 354773,
+            "end_char": 370732
+          },
+          {
+            "id": 30,
+            "title": "CHAPTER VII",
+            "start_char": 370732,
+            "end_char": 376756
+          },
+          {
+            "id": 31,
+            "title": "CHAPTER VIII",
+            "start_char": 376756,
+            "end_char": 394257
+          },
+          {
+            "id": 32,
+            "title": "CHAPTER IX",
+            "start_char": 394257,
+            "end_char": 410104
+          },
+          {
+            "id": 33,
+            "title": "CHAPTER X",
+            "start_char": 410104,
+            "end_char": 424923
+          },
+          {
+            "id": 34,
+            "title": "CHAPTER XI",
+            "start_char": 424923,
+            "end_char": 434163
+          },
+          {
+            "id": 35,
+            "title": "CHAPTER XII",
+            "start_char": 434163,
+            "end_char": 450041
+          },
+          {
+            "id": 36,
+            "title": "CHAPTER XIII",
+            "start_char": 450041,
+            "end_char": 467105
+          },
+          {
+            "id": 37,
+            "title": "CHAPTER XIV",
+            "start_char": 467105,
+            "end_char": 486114
+          },
+          {
+            "id": 38,
+            "title": "CHAPTER XV",
+            "start_char": 486114,
+            "end_char": 497569
+          },
+          {
+            "id": 39,
+            "title": "CHAPTER XVI",
+            "start_char": 497569,
+            "end_char": 515664
+          },
+          {
+            "id": 40,
+            "title": "CHAPTER XVII",
+            "start_char": 515664,
+            "end_char": 529093
+          },
+          {
+            "id": 41,
+            "title": "CHAPTER XVIII",
+            "start_char": 529093,
+            "end_char": 542416
+          },
+          {
+            "id": 42,
+            "title": "CHAPTER XIX",
+            "start_char": 542416,
+            "end_char": 556794
+          },
+          {
+            "id": 43,
+            "title": "CHAPTER XX",
+            "start_char": 556794,
+            "end_char": 567440
+          },
+          {
+            "id": 44,
+            "title": "CHAPTER XXI",
+            "start_char": 567440,
+            "end_char": 583431
+          },
+          {
+            "id": 45,
+            "title": "CHAPTER XXII",
+            "start_char": 583431,
+            "end_char": 596199
+          },
+          {
+            "id": 46,
+            "title": "CHAPTER XXIII",
+            "start_char": 596199,
+            "end_char": 617201
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "canonical": "classic_sections_v2__40c7f2e03032",
+  "available": [
+    {
+      "id": "classic_sections_v2__40c7f2e03032",
+      "strategy": {
+        "name": "classic_sections",
+        "version": "v2"
+      },
+      "created_at": "2026-02-23T18:36:27.923607Z"
+    },
+    {
+      "id": "classic_sections_v2__40c7f2e03032",
+      "strategy": {
+        "name": "classic_sections",
+        "version": "v2"
+      },
+      "created_at": "2026-02-23T18:38:28.945135Z"
+    },
+    {
+      "id": "classic_sections_v2__80284eac9491",
+      "strategy": {
+        "name": "classic_sections",
+        "version": "v2"
+      },
+      "created_at": "2026-02-24T21:35:17.597137Z"
+    }
+  ]
+}

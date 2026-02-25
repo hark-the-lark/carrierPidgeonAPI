@@ -1,0 +1,11 @@
+{
+    "id": "gullivers_travel",
+    "title": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "language": "en",
+    "source": "Project Gutenberg",
+    "license": "Public Domain",
+    "tokenizer": null,
+    "chapter_strategy": ""
+}

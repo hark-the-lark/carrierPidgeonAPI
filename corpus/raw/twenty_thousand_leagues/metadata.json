@@ -1,0 +1,11 @@
+{
+    "id": "twenty_thousand_leagues",
+    "title": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "language": "en",
+    "source": "Project Gutenberg",
+    "license": "Public Domain",
+    "tokenizer": null,
+    "chapter_strategy": ""
+}

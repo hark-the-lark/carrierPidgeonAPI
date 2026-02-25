@@ -1,0 +1,289 @@
+{
+  "doc_id": "gullivers_travel",
+  "strategy": {
+    "name": "classic_sections",
+    "version": "v2"
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraph"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "CHAPTER I.",
+        "start_char": 12456,
+        "end_char": 33930,
+        "chapters": []
+      },
+      {
+        "id": 2,
+        "title": "CHAPTER II.",
+        "start_char": 33930,
+        "end_char": 54318,
+        "chapters": []
+      },
+      {
+        "id": 3,
+        "title": "CHAPTER III.",
+        "start_char": 54318,
+        "end_char": 70037,
+        "chapters": []
+      },
+      {
+        "id": 4,
+        "title": "CHAPTER IV.",
+        "start_char": 70037,
+        "end_char": 80490,
+        "chapters": []
+      },
+      {
+        "id": 5,
+        "title": "CHAPTER V.",
+        "start_char": 80490,
+        "end_char": 94065,
+        "chapters": []
+      },
+      {
+        "id": 6,
+        "title": "CHAPTER VI.",
+        "start_char": 94065,
+        "end_char": 114884,
+        "chapters": []
+      },
+      {
+        "id": 7,
+        "title": "CHAPTER VII.",
+        "start_char": 114884,
+        "end_char": 131209,
+        "chapters": []
+      },
+      {
+        "id": 8,
+        "title": "CHAPTER VIII.",
+        "start_char": 131209,
+        "end_char": 143968,
+        "chapters": []
+      },
+      {
+        "id": 9,
+        "title": "CHAPTER I.",
+        "start_char": 143968,
+        "end_char": 169997,
+        "chapters": []
+      },
+      {
+        "id": 10,
+        "title": "CHAPTER II.",
+        "start_char": 169997,
+        "end_char": 181837,
+        "chapters": []
+      },
+      {
+        "id": 11,
+        "title": "CHAPTER III.",
+        "start_char": 181837,
+        "end_char": 202953,
+        "chapters": []
+      },
+      {
+        "id": 12,
+        "title": "CHAPTER IV.",
+        "start_char": 202953,
+        "end_char": 212962,
+        "chapters": []
+      },
+      {
+        "id": 13,
+        "title": "CHAPTER V.",
+        "start_char": 212962,
+        "end_char": 233099,
+        "chapters": []
+      },
+      {
+        "id": 14,
+        "title": "CHAPTER VI.",
+        "start_char": 233099,
+        "end_char": 250993,
+        "chapters": []
+      },
+      {
+        "id": 15,
+        "title": "CHAPTER VII.",
+        "start_char": 250993,
+        "end_char": 264601,
+        "chapters": []
+      },
+      {
+        "id": 16,
+        "title": "CHAPTER VIII.",
+        "start_char": 264601,
+        "end_char": 289167,
+        "chapters": []
+      },
+      {
+        "id": 17,
+        "title": "CHAPTER I.",
+        "start_char": 289167,
+        "end_char": 300283,
+        "chapters": []
+      },
+      {
+        "id": 18,
+        "title": "CHAPTER II.",
+        "start_char": 300283,
+        "end_char": 317656,
+        "chapters": []
+      },
+      {
+        "id": 19,
+        "title": "CHAPTER III.",
+        "start_char": 317656,
+        "end_char": 332131,
+        "chapters": []
+      },
+      {
+        "id": 20,
+        "title": "CHAPTER IV.",
+        "start_char": 332131,
+        "end_char": 344314,
+        "chapters": []
+      },
+      {
+        "id": 21,
+        "title": "CHAPTER V.",
+        "start_char": 344314,
+        "end_char": 359121,
+        "chapters": []
+      },
+      {
+        "id": 22,
+        "title": "CHAPTER VI.",
+        "start_char": 359121,
+        "end_char": 370815,
+        "chapters": []
+      },
+      {
+        "id": 23,
+        "title": "CHAPTER VII.",
+        "start_char": 370815,
+        "end_char": 379023,
+        "chapters": []
+      },
+      {
+        "id": 24,
+        "title": "CHAPTER VIII.",
+        "start_char": 379023,
+        "end_char": 390711,
+        "chapters": []
+      },
+      {
+        "id": 25,
+        "title": "CHAPTER IX.",
+        "start_char": 390711,
+        "end_char": 398165,
+        "chapters": []
+      },
+      {
+        "id": 26,
+        "title": "CHAPTER X.",
+        "start_char": 398165,
+        "end_char": 415595,
+        "chapters": []
+      },
+      {
+        "id": 27,
+        "title": "CHAPTER XI.",
+        "start_char": 415595,
+        "end_char": 422639,
+        "chapters": []
+      },
+      {
+        "id": 28,
+        "title": "CHAPTER I.",
+        "start_char": 422639,
+        "end_char": 436835,
+        "chapters": []
+      },
+      {
+        "id": 29,
+        "title": "CHAPTER II.",
+        "start_char": 436835,
+        "end_char": 448903,
+        "chapters": []
+      },
+      {
+        "id": 30,
+        "title": "CHAPTER III.",
+        "start_char": 448903,
+        "end_char": 460527,
+        "chapters": []
+      },
+      {
+        "id": 31,
+        "title": "CHAPTER IV.",
+        "start_char": 460527,
+        "end_char": 471536,
+        "chapters": []
+      },
+      {
+        "id": 32,
+        "title": "CHAPTER V.",
+        "start_char": 471536,
+        "end_char": 484631,
+        "chapters": []
+      },
+      {
+        "id": 33,
+        "title": "CHAPTER VI.",
+        "start_char": 484631,
+        "end_char": 498613,
+        "chapters": []
+      },
+      {
+        "id": 34,
+        "title": "CHAPTER VII.",
+        "start_char": 498613,
+        "end_char": 514039,
+        "chapters": []
+      },
+      {
+        "id": 35,
+        "title": "CHAPTER VIII.",
+        "start_char": 514039,
+        "end_char": 526309,
+        "chapters": []
+      },
+      {
+        "id": 36,
+        "title": "CHAPTER IX.",
+        "start_char": 526309,
+        "end_char": 537368,
+        "chapters": []
+      },
+      {
+        "id": 37,
+        "title": "CHAPTER X.",
+        "start_char": 537368,
+        "end_char": 552784,
+        "chapters": []
+      },
+      {
+        "id": 38,
+        "title": "CHAPTER XI.",
+        "start_char": 552784,
+        "end_char": 569070,
+        "chapters": []
+      },
+      {
+        "id": 39,
+        "title": "CHAPTER XII.",
+        "start_char": 569070,
+        "end_char": 601821,
+        "chapters": []
+      }
+    ]
+  }
+}

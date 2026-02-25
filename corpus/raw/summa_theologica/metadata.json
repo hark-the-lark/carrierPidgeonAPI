@@ -1,0 +1,10 @@
+{
+  "id": "summa_theologica",
+  "title": "Summa Theologica",
+  "author": "Thomas Aquinas",
+  "language": "en",
+  "source": "online",
+  "license": "public_domain",
+  "tokenizer": null,
+  "chapter_strategy": ""
+}
