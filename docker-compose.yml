@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: "3.9"
+services:
+  bookserviceapi:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./corpus:/app/corpus
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1

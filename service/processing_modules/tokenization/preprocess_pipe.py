@@ -1,7 +1,7 @@
 from .token_strategy import TokenizationStrategy
 from .tokenizer_registry import get_tokenizer
 from .stopwords_registry import get_stopwords
-from bookService.service.app.corpus import load_raw_text, load_tokens, save_tokens, tokens_exist
+from carrierPidgeonAPI.service.app.corpus import load_raw_text, load_tokens, save_tokens, tokens_exist
 import string
 import re
 

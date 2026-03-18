@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
 
-from bookService.service.app.corpus import (
+from carrierPidgeonAPI.service.app.corpus import (
     list_documents,
     load_metadata,
     load_raw_text,
@@ -12,21 +12,21 @@ from .models import DocumentInfo
 import logging
 import json
 from pathlib import Path
-from bookService.service.app.logging import setup_logging
-from bookService.service.app.config import CORPUS_DIR
-from bookService.service.app.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
-from bookService.service.app.processing_modules.tokenization.service import get_or_build_tokens
-from bookService.service.app.processing_modules.sectioning.service import (
+from carrierPidgeonAPI.service.app.logging import setup_logging
+from carrierPidgeonAPI.service.app.config import CORPUS_DIR
+from carrierPidgeonAPI.service.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
+from carrierPidgeonAPI.service.processing_modules.tokenization.service import get_or_build_tokens
+from carrierPidgeonAPI.service.processing_modules.sectioning.service import (
     get_canonical_sections,
     list_section_versions,
     get_section_version,
     build_and_store_sections,
     promote_to_canonical
 )
-from bookService.service.app.processing_modules.sectioning.sectioning_strategy import SectioningStrategy
+from carrierPidgeonAPI.service.processing_modules.sectioning.sectioning_strategy import SectioningStrategy
 
-from bookService.service.app.corpus import list_documents, load_metadata, get_document_path, load_chapter_index, list_tokenizations
-from bookService.service.app.models import DocumentSummary, SectionBuildRequest
+from carrierPidgeonAPI.service.app.corpus import list_documents, load_metadata, get_document_path, load_chapter_index, list_tokenizations
+from carrierPidgeonAPI.service.app.models import DocumentSummary, SectionBuildRequest
 from typing import List
 
 setup_logging()
@@ -320,3 +320,77 @@ def promote_section_version(doc_id: str, version_id: str):
             status_code=404,
             detail="Section version not found"
         )
+
+@router.post("/corpus/build", response_model=CorpusBuildResponse)
+def build_corpus(request: CorpusBuildRequest):
+
+    logger.info("Starting corpus build")
+
+    try:
+        processor = get_processing_strategy(request.processing_strategy)
+    except ValueError as e:
+        logger.error(str(e))
+        raise HTTPException(status_code=400, detail=str(e))
+
+    processed_texts = []
+    fingerprint_parts = []
+    total_characters = 0
+
+    for doc_slice in request.documents:
+        logger.info(
+            f"Reading document slice: {doc_slice.doc_id} "
+            f"[{doc_slice.start_char}:{doc_slice.end_char}]"
+        )
+
+        raw_text = compute_strategy_id(doc_slice.doc_id)
+
+        if doc_slice.end_char > len(raw_text):
+            raise HTTPException(
+                status_code=400,
+                detail=f"Slice exceeds document length for {doc_slice.doc_id}"
+            )
+
+        slice_text = raw_text[doc_slice.start_char:doc_slice.end_char]
+
+        processed = processor(slice_text)
+        processed_texts.append(processed)
+
+        total_characters += len(processed)
+
+        fingerprint_parts.append(
+            f"{doc_slice.doc_id}:{doc_slice.start_char}:{doc_slice.end_char}:{request.processing_strategy}"
+        )
+
+    fingerprint = "|".join(fingerprint_parts)
+    corpus_id = compute_corpus_id(fingerprint)
+
+    metadata = CorpusMetadata(
+        corpus_id=corpus_id,
+        documents=request.documents,
+        processing_strategy=request.processing_strategy,
+        created_at=datetime.utcnow(),
+        total_characters=total_characters,
+    )
+
+    if request.persist:
+        output_path = GENERATED_DIR / f"{corpus_id}.json"
+
+        logger.info(f"Persisting corpus to {output_path}")
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(
+                {
+                    "metadata": metadata.dict(),
+                    "corpus": processed_texts,
+                },
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+
+    logger.info(f"Corpus build complete: {corpus_id}")
+
+    return CorpusBuildResponse(
+        metadata=metadata,
+        corpus=processed_texts,
+    )

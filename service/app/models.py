@@ -2,6 +2,8 @@ from pydantic import BaseModel
 from typing import Dict
 from pydantic import BaseModel
 from typing import Dict
+from typing import List, Optional, Dict
+
 
 class DocumentInfo(BaseModel):
     id: str
@@ -13,10 +15,6 @@ class DocumentSummary(BaseModel):
     id: str
     has_raw: bool
     metadata: Dict
-
-
-from pydantic import BaseModel
-from typing import List, Optional, Dict
 
 class SectionBuildRequest(BaseModel):
     strategy: Dict

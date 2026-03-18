@@ -4,12 +4,13 @@ import re
 SectionBuilder = Callable[[str, dict], list]
 SubsectionBuilder = Callable[[str, dict, dict], list]
 
+COLLECTION_REGISTRY: Dict[str, SectionBuilder] = {}
 SECTIONING_REGISTRY: Dict[str, SectionBuilder] = {}
 SUBSECTIONING_REGISTRY: Dict[str, SubsectionBuilder] = {}
 
 def register_collection(id: str):
     def decorator(fn: SectionBuilder):
-        SECTIONING_REGISTRY[id] = fn
+        COLLECTION_REGISTRY[id] = fn
         return fn
     return decorator
 

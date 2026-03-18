@@ -6,8 +6,8 @@ from typing import Optional
 
 from .sectioning_strategy import SectioningStrategy, section_strategy_id
 from .build_sections import build as build_sections
-from bookService.service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
-from bookService.service.app.logging import logging, setup_logging
+from carrierPidgeonAPI.service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
+from carrierPidgeonAPI.service.app.logging import logging, setup_logging
 
 logger = logging.getLogger(__name__)
 
