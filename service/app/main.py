@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
 
-from carrierPidgeonAPI.service.app.corpus import (
+from service.app.corpus import (
     list_documents,
     load_metadata,
     load_raw_text,
@@ -12,22 +12,23 @@ from .models import DocumentInfo
 import logging
 import json
 from pathlib import Path
-from carrierPidgeonAPI.service.app.logging import setup_logging
-from carrierPidgeonAPI.service.app.config import CORPUS_DIR
-from carrierPidgeonAPI.service.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
-from carrierPidgeonAPI.service.processing_modules.tokenization.service import get_or_build_tokens
-from carrierPidgeonAPI.service.processing_modules.sectioning.service import (
+from service.app.logging import setup_logging
+from service.app.config import CORPUS_DIR, GENERATED_DIR
+from service.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
+from service.processing_modules.tokenization.service import get_or_build_tokens
+from service.processing_modules.sectioning.service import (
     get_canonical_sections,
     list_section_versions,
     get_section_version,
     build_and_store_sections,
     promote_to_canonical
 )
-from carrierPidgeonAPI.service.processing_modules.sectioning.sectioning_strategy import SectioningStrategy
+from service.processing_modules.sectioning.sectioning_strategy import SectioningStrategy
 
-from carrierPidgeonAPI.service.app.corpus import list_documents, load_metadata, get_document_path, load_chapter_index, list_tokenizations
-from carrierPidgeonAPI.service.app.models import DocumentSummary, SectionBuildRequest
+from service.app.corpus import list_documents, load_metadata, get_document_path, load_chapter_index, list_tokenizations
+from service.app.models import DocumentSummary, SectionBuildRequest, CorpusBuildRequest, CorpusBuildResponse, CorpusMetadata, compute_corpus_id
 from typing import List
+from datetime import datetime
 
 setup_logging()
 logger = logging.getLogger("corpus_service")
@@ -321,16 +322,12 @@ def promote_section_version(doc_id: str, version_id: str):
             detail="Section version not found"
         )
 
-@router.post("/corpus/build", response_model=CorpusBuildResponse)
+@app.post("/corpus/build", response_model=CorpusBuildResponse)
 def build_corpus(request: CorpusBuildRequest):
 
     logger.info("Starting corpus build")
 
-    try:
-        processor = get_processing_strategy(request.processing_strategy)
-    except ValueError as e:
-        logger.error(str(e))
-        raise HTTPException(status_code=400, detail=str(e))
+    processor = request.processing_strategy
 
     processed_texts = []
     fingerprint_parts = []

@@ -1,5 +1,5 @@
 """
-bookService
+carrierPidgeonAPI
 
 Root package for the book service backend.
 """

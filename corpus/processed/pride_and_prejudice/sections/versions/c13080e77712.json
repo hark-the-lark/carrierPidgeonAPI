@@ -1,0 +1,378 @@
+{
+  "doc_id": "pride_and_prejudice",
+  "strategy": {
+    "name": "",
+    "version": ""
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraph"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "Full Text",
+        "start_char": 0,
+        "end_char": 718239,
+        "chapters": [
+          {
+            "id": 1,
+            "title": "Chapter I.",
+            "start_char": 29190,
+            "end_char": 33834
+          },
+          {
+            "id": 2,
+            "title": "CHAPTER II.",
+            "start_char": 33834,
+            "end_char": 38210
+          },
+          {
+            "id": 3,
+            "title": "CHAPTER III.",
+            "start_char": 38210,
+            "end_char": 47941
+          },
+          {
+            "id": 4,
+            "title": "CHAPTER IV.",
+            "start_char": 47941,
+            "end_char": 53880
+          },
+          {
+            "id": 5,
+            "title": "CHAPTER V.",
+            "start_char": 53880,
+            "end_char": 59238
+          },
+          {
+            "id": 6,
+            "title": "CHAPTER VI.",
+            "start_char": 59238,
+            "end_char": 72363
+          },
+          {
+            "id": 7,
+            "title": "CHAPTER VII.",
+            "start_char": 72363,
+            "end_char": 83651
+          },
+          {
+            "id": 8,
+            "title": "CHAPTER VIII.",
+            "start_char": 83651,
+            "end_char": 94682
+          },
+          {
+            "id": 9,
+            "title": "CHAPTER IX.",
+            "start_char": 94682,
+            "end_char": 104428
+          },
+          {
+            "id": 10,
+            "title": "CHAPTER X.",
+            "start_char": 104428,
+            "end_char": 117024
+          },
+          {
+            "id": 11,
+            "title": "CHAPTER XI.",
+            "start_char": 117024,
+            "end_char": 125951
+          },
+          {
+            "id": 12,
+            "title": "CHAPTER XII.",
+            "start_char": 125951,
+            "end_char": 129897
+          },
+          {
+            "id": 13,
+            "title": "CHAPTER XIII",
+            "start_char": 129897,
+            "end_char": 139186
+          },
+          {
+            "id": 14,
+            "title": "CHAPTER XIV",
+            "start_char": 139186,
+            "end_char": 145714
+          },
+          {
+            "id": 15,
+            "title": "CHAPTER XV.",
+            "start_char": 145714,
+            "end_char": 155509
+          },
+          {
+            "id": 16,
+            "title": "CHAPTER XVI.",
+            "start_char": 155509,
+            "end_char": 174672
+          },
+          {
+            "id": 17,
+            "title": "CHAPTER XVII.",
+            "start_char": 174672,
+            "end_char": 181966
+          },
+          {
+            "id": 18,
+            "title": "CHAPTER XVIII.",
+            "start_char": 181966,
+            "end_char": 211305
+          },
+          {
+            "id": 19,
+            "title": "CHAPTER XIX.",
+            "start_char": 211305,
+            "end_char": 221982
+          },
+          {
+            "id": 20,
+            "title": "CHAPTER XX.",
+            "start_char": 221982,
+            "end_char": 231222
+          },
+          {
+            "id": 21,
+            "title": "CHAPTER XXI.",
+            "start_char": 231222,
+            "end_char": 242602
+          },
+          {
+            "id": 22,
+            "title": "CHAPTER XXII.",
+            "start_char": 242602,
+            "end_char": 252781
+          },
+          {
+            "id": 23,
+            "title": "CHAPTER XXIII.",
+            "start_char": 252781,
+            "end_char": 262177
+          },
+          {
+            "id": 24,
+            "title": "CHAPTER XXIV.",
+            "start_char": 262177,
+            "end_char": 273016
+          },
+          {
+            "id": 25,
+            "title": "CHAPTER XXV.",
+            "start_char": 273016,
+            "end_char": 281773
+          },
+          {
+            "id": 26,
+            "title": "CHAPTER XXVI.",
+            "start_char": 281773,
+            "end_char": 310267
+          },
+          {
+            "id": 27,
+            "title": "CHAPTER XXIX.",
+            "start_char": 310267,
+            "end_char": 323964
+          },
+          {
+            "id": 28,
+            "title": "CHAPTER XXX.",
+            "start_char": 323964,
+            "end_char": 331200
+          },
+          {
+            "id": 29,
+            "title": "CHAPTER XXXI.",
+            "start_char": 331200,
+            "end_char": 339953
+          },
+          {
+            "id": 30,
+            "title": "CHAPTER XXXII.",
+            "start_char": 339953,
+            "end_char": 348542
+          },
+          {
+            "id": 31,
+            "title": "CHAPTER XXXIII.",
+            "start_char": 348542,
+            "end_char": 358924
+          },
+          {
+            "id": 32,
+            "title": "CHAPTER XXXIV.",
+            "start_char": 358924,
+            "end_char": 370988
+          },
+          {
+            "id": 33,
+            "title": "CHAPTER XXXV.",
+            "start_char": 370988,
+            "end_char": 388015
+          },
+          {
+            "id": 34,
+            "title": "CHAPTER XXXVI.",
+            "start_char": 388015,
+            "end_char": 399943
+          },
+          {
+            "id": 35,
+            "title": "CHAPTER XXXVII.",
+            "start_char": 399943,
+            "end_char": 407867
+          },
+          {
+            "id": 36,
+            "title": "CHAPTER XXXVIII.",
+            "start_char": 407867,
+            "end_char": 413961
+          },
+          {
+            "id": 37,
+            "title": "CHAPTER XXXIX.",
+            "start_char": 413961,
+            "end_char": 422747
+          },
+          {
+            "id": 38,
+            "title": "CHAPTER XL.",
+            "start_char": 422747,
+            "end_char": 432076
+          },
+          {
+            "id": 39,
+            "title": "CHAPTER XLI.",
+            "start_char": 432076,
+            "end_char": 445221
+          },
+          {
+            "id": 40,
+            "title": "CHAPTER XLII.",
+            "start_char": 445221,
+            "end_char": 455935
+          },
+          {
+            "id": 41,
+            "title": "CHAPTER XLIII.",
+            "start_char": 455935,
+            "end_char": 483446
+          },
+          {
+            "id": 42,
+            "title": "CHAPTER XLIV.",
+            "start_char": 483446,
+            "end_char": 496988
+          },
+          {
+            "id": 43,
+            "title": "CHAPTER XLV.",
+            "start_char": 496988,
+            "end_char": 507112
+          },
+          {
+            "id": 44,
+            "title": "Chapter XLVI.",
+            "start_char": 507112,
+            "end_char": 524186
+          },
+          {
+            "id": 45,
+            "title": "CHAPTER XLVII.",
+            "start_char": 524186,
+            "end_char": 546540
+          },
+          {
+            "id": 46,
+            "title": "CHAPTER XLVIII.",
+            "start_char": 546540,
+            "end_char": 559217
+          },
+          {
+            "id": 47,
+            "title": "CHAPTER XLIX.",
+            "start_char": 559217,
+            "end_char": 571601
+          },
+          {
+            "id": 48,
+            "title": "CHAPTER L.",
+            "start_char": 571601,
+            "end_char": 584164
+          },
+          {
+            "id": 49,
+            "title": "CHAPTER LI.",
+            "start_char": 584164,
+            "end_char": 595457
+          },
+          {
+            "id": 50,
+            "title": "CHAPTER LII.",
+            "start_char": 595457,
+            "end_char": 612035
+          },
+          {
+            "id": 51,
+            "title": "CHAPTER LIII.",
+            "start_char": 612035,
+            "end_char": 628174
+          },
+          {
+            "id": 52,
+            "title": "CHAPTER LIV.",
+            "start_char": 628174,
+            "end_char": 637138
+          },
+          {
+            "id": 53,
+            "title": "CHAPTER LV.",
+            "start_char": 637138,
+            "end_char": 650129
+          },
+          {
+            "id": 54,
+            "title": "CHAPTER LVI.",
+            "start_char": 650129,
+            "end_char": 665552
+          },
+          {
+            "id": 55,
+            "title": "CHAPTER LVII.",
+            "start_char": 665552,
+            "end_char": 674998
+          },
+          {
+            "id": 56,
+            "title": "CHAPTER LVIII.",
+            "start_char": 674998,
+            "end_char": 688704
+          },
+          {
+            "id": 57,
+            "title": "CHAPTER LIX.",
+            "start_char": 688704,
+            "end_char": 702302
+          },
+          {
+            "id": 58,
+            "title": "CHAPTER LX.",
+            "start_char": 702302,
+            "end_char": 711000
+          },
+          {
+            "id": 59,
+            "title": "CHAPTER LXI.",
+            "start_char": 711000,
+            "end_char": 718239
+          }
+        ]
+      }
+    ]
+  }
+}

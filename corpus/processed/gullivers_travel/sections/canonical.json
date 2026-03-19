@@ -1,0 +1,3861 @@
+{
+  "doc_id": "gullivers_travel",
+  "strategy": {
+    "name": "",
+    "version": ""
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraph"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "Full Text",
+        "start_char": 0,
+        "end_char": 601821,
+        "chapters": [
+          {
+            "id": 1,
+            "title": "CHAPTER I.",
+            "start_char": 12456,
+            "end_char": 33930,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 12456,
+                "end_char": 12466
+              },
+              {
+                "id": 2,
+                "start_char": 12468,
+                "end_char": 12691
+              },
+              {
+                "id": 3,
+                "start_char": 12694,
+                "end_char": 13672
+              },
+              {
+                "id": 4,
+                "start_char": 13674,
+                "end_char": 14310
+              },
+              {
+                "id": 5,
+                "start_char": 14312,
+                "end_char": 15076
+              },
+              {
+                "id": 6,
+                "start_char": 15078,
+                "end_char": 15627
+              },
+              {
+                "id": 7,
+                "start_char": 15629,
+                "end_char": 28163
+              },
+              {
+                "id": 8,
+                "start_char": 28165,
+                "end_char": 28542
+              },
+              {
+                "id": 9,
+                "start_char": 28544,
+                "end_char": 29132
+              },
+              {
+                "id": 10,
+                "start_char": 29134,
+                "end_char": 30852
+              },
+              {
+                "id": 11,
+                "start_char": 30854,
+                "end_char": 31962
+              },
+              {
+                "id": 12,
+                "start_char": 31964,
+                "end_char": 33927
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "CHAPTER II.",
+            "start_char": 33930,
+            "end_char": 54318,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 33930,
+                "end_char": 33941
+              },
+              {
+                "id": 2,
+                "start_char": 33943,
+                "end_char": 34257
+              },
+              {
+                "id": 3,
+                "start_char": 34260,
+                "end_char": 34758
+              },
+              {
+                "id": 4,
+                "start_char": 34760,
+                "end_char": 36042
+              },
+              {
+                "id": 5,
+                "start_char": 36044,
+                "end_char": 40554
+              },
+              {
+                "id": 6,
+                "start_char": 40556,
+                "end_char": 41209
+              },
+              {
+                "id": 7,
+                "start_char": 41211,
+                "end_char": 41779
+              },
+              {
+                "id": 8,
+                "start_char": 41781,
+                "end_char": 46209
+              },
+              {
+                "id": 9,
+                "start_char": 46212,
+                "end_char": 50069
+              },
+              {
+                "id": 10,
+                "start_char": 50071,
+                "end_char": 50741
+              },
+              {
+                "id": 11,
+                "start_char": 50743,
+                "end_char": 50999
+              },
+              {
+                "id": 12,
+                "start_char": 51039,
+                "end_char": 51071
+              },
+              {
+                "id": 13,
+                "start_char": 51073,
+                "end_char": 53900
+              },
+              {
+                "id": 14,
+                "start_char": 53902,
+                "end_char": 54315
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "CHAPTER III.",
+            "start_char": 54318,
+            "end_char": 70037,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 54318,
+                "end_char": 54330
+              },
+              {
+                "id": 2,
+                "start_char": 54332,
+                "end_char": 54537
+              },
+              {
+                "id": 3,
+                "start_char": 54540,
+                "end_char": 55535
+              },
+              {
+                "id": 4,
+                "start_char": 55537,
+                "end_char": 56642
+              },
+              {
+                "id": 5,
+                "start_char": 56644,
+                "end_char": 57273
+              },
+              {
+                "id": 6,
+                "start_char": 57275,
+                "end_char": 58667
+              },
+              {
+                "id": 7,
+                "start_char": 58669,
+                "end_char": 61486
+              },
+              {
+                "id": 8,
+                "start_char": 61488,
+                "end_char": 63445
+              },
+              {
+                "id": 9,
+                "start_char": 63447,
+                "end_char": 64485
+              },
+              {
+                "id": 10,
+                "start_char": 64487,
+                "end_char": 65970
+              },
+              {
+                "id": 11,
+                "start_char": 65973,
+                "end_char": 66676
+              },
+              {
+                "id": 12,
+                "start_char": 66678,
+                "end_char": 66779
+              },
+              {
+                "id": 13,
+                "start_char": 66781,
+                "end_char": 66944
+              },
+              {
+                "id": 14,
+                "start_char": 66946,
+                "end_char": 67091
+              },
+              {
+                "id": 15,
+                "start_char": 67093,
+                "end_char": 67317
+              },
+              {
+                "id": 16,
+                "start_char": 67319,
+                "end_char": 67577
+              },
+              {
+                "id": 17,
+                "start_char": 67579,
+                "end_char": 67731
+              },
+              {
+                "id": 18,
+                "start_char": 67733,
+                "end_char": 67959
+              },
+              {
+                "id": 19,
+                "start_char": 67961,
+                "end_char": 68137
+              },
+              {
+                "id": 20,
+                "start_char": 68139,
+                "end_char": 68490
+              },
+              {
+                "id": 21,
+                "start_char": 68493,
+                "end_char": 69224
+              },
+              {
+                "id": 22,
+                "start_char": 69226,
+                "end_char": 70034
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "CHAPTER IV.",
+            "start_char": 70037,
+            "end_char": 80490,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 70037,
+                "end_char": 70048
+              },
+              {
+                "id": 2,
+                "start_char": 70050,
+                "end_char": 70288
+              },
+              {
+                "id": 3,
+                "start_char": 70291,
+                "end_char": 71827
+              },
+              {
+                "id": 4,
+                "start_char": 71829,
+                "end_char": 73997
+              },
+              {
+                "id": 5,
+                "start_char": 73999,
+                "end_char": 74630
+              },
+              {
+                "id": 6,
+                "start_char": 74632,
+                "end_char": 80212
+              },
+              {
+                "id": 7,
+                "start_char": 80214,
+                "end_char": 80487
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "CHAPTER V.",
+            "start_char": 80490,
+            "end_char": 94065,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 80490,
+                "end_char": 80500
+              },
+              {
+                "id": 2,
+                "start_char": 80502,
+                "end_char": 80786
+              },
+              {
+                "id": 3,
+                "start_char": 80789,
+                "end_char": 84355
+              },
+              {
+                "id": 4,
+                "start_char": 84357,
+                "end_char": 85175
+              },
+              {
+                "id": 5,
+                "start_char": 85177,
+                "end_char": 86037
+              },
+              {
+                "id": 6,
+                "start_char": 86039,
+                "end_char": 86833
+              },
+              {
+                "id": 7,
+                "start_char": 86835,
+                "end_char": 87567
+              },
+              {
+                "id": 8,
+                "start_char": 87569,
+                "end_char": 88553
+              },
+              {
+                "id": 9,
+                "start_char": 88555,
+                "end_char": 89456
+              },
+              {
+                "id": 10,
+                "start_char": 89458,
+                "end_char": 90680
+              },
+              {
+                "id": 11,
+                "start_char": 90682,
+                "end_char": 93180
+              },
+              {
+                "id": 12,
+                "start_char": 93182,
+                "end_char": 94062
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "CHAPTER VI.",
+            "start_char": 94065,
+            "end_char": 114884,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 94065,
+                "end_char": 94076
+              },
+              {
+                "id": 2,
+                "start_char": 94078,
+                "end_char": 94261
+              },
+              {
+                "id": 3,
+                "start_char": 94264,
+                "end_char": 95517
+              },
+              {
+                "id": 4,
+                "start_char": 95519,
+                "end_char": 95917
+              },
+              {
+                "id": 5,
+                "start_char": 95919,
+                "end_char": 96363
+              },
+              {
+                "id": 6,
+                "start_char": 96365,
+                "end_char": 97301
+              },
+              {
+                "id": 7,
+                "start_char": 97303,
+                "end_char": 98368
+              },
+              {
+                "id": 8,
+                "start_char": 98370,
+                "end_char": 99443
+              },
+              {
+                "id": 9,
+                "start_char": 99445,
+                "end_char": 100643
+              },
+              {
+                "id": 10,
+                "start_char": 100645,
+                "end_char": 100951
+              },
+              {
+                "id": 11,
+                "start_char": 100953,
+                "end_char": 101522
+              },
+              {
+                "id": 12,
+                "start_char": 101524,
+                "end_char": 101829
+              },
+              {
+                "id": 13,
+                "start_char": 101831,
+                "end_char": 103393
+              },
+              {
+                "id": 14,
+                "start_char": 103395,
+                "end_char": 104733
+              },
+              {
+                "id": 15,
+                "start_char": 104735,
+                "end_char": 104877
+              },
+              {
+                "id": 16,
+                "start_char": 104879,
+                "end_char": 105274
+              },
+              {
+                "id": 17,
+                "start_char": 105276,
+                "end_char": 106654
+              },
+              {
+                "id": 18,
+                "start_char": 106656,
+                "end_char": 106896
+              },
+              {
+                "id": 19,
+                "start_char": 106898,
+                "end_char": 107611
+              },
+              {
+                "id": 20,
+                "start_char": 107613,
+                "end_char": 107909
+              },
+              {
+                "id": 21,
+                "start_char": 107911,
+                "end_char": 109748
+              },
+              {
+                "id": 22,
+                "start_char": 109750,
+                "end_char": 110792
+              },
+              {
+                "id": 23,
+                "start_char": 110794,
+                "end_char": 112148
+              },
+              {
+                "id": 24,
+                "start_char": 112150,
+                "end_char": 114881
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "CHAPTER VII.",
+            "start_char": 114884,
+            "end_char": 131209,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 114884,
+                "end_char": 114896
+              },
+              {
+                "id": 2,
+                "start_char": 114898,
+                "end_char": 115018
+              },
+              {
+                "id": 3,
+                "start_char": 115021,
+                "end_char": 115194
+              },
+              {
+                "id": 4,
+                "start_char": 115196,
+                "end_char": 115558
+              },
+              {
+                "id": 5,
+                "start_char": 115560,
+                "end_char": 116494
+              },
+              {
+                "id": 6,
+                "start_char": 116496,
+                "end_char": 116697
+              },
+              {
+                "id": 7,
+                "start_char": 116699,
+                "end_char": 117274
+              },
+              {
+                "id": 8,
+                "start_char": 117276,
+                "end_char": 117449
+              },
+              {
+                "id": 9,
+                "start_char": 117451,
+                "end_char": 117623
+              },
+              {
+                "id": 10,
+                "start_char": 117626,
+                "end_char": 117701
+              },
+              {
+                "id": 11,
+                "start_char": 117703,
+                "end_char": 117713
+              },
+              {
+                "id": 12,
+                "start_char": 117716,
+                "end_char": 118395
+              },
+              {
+                "id": 13,
+                "start_char": 118397,
+                "end_char": 118408
+              },
+              {
+                "id": 14,
+                "start_char": 118411,
+                "end_char": 119138
+              },
+              {
+                "id": 15,
+                "start_char": 119140,
+                "end_char": 119152
+              },
+              {
+                "id": 16,
+                "start_char": 119155,
+                "end_char": 119519
+              },
+              {
+                "id": 17,
+                "start_char": 119521,
+                "end_char": 119532
+              },
+              {
+                "id": 18,
+                "start_char": 119535,
+                "end_char": 119994
+              },
+              {
+                "id": 19,
+                "start_char": 119997,
+                "end_char": 120100
+              },
+              {
+                "id": 20,
+                "start_char": 120102,
+                "end_char": 120948
+              },
+              {
+                "id": 21,
+                "start_char": 120950,
+                "end_char": 122444
+              },
+              {
+                "id": 22,
+                "start_char": 122446,
+                "end_char": 123411
+              },
+              {
+                "id": 23,
+                "start_char": 123413,
+                "end_char": 124103
+              },
+              {
+                "id": 24,
+                "start_char": 124105,
+                "end_char": 125207
+              },
+              {
+                "id": 25,
+                "start_char": 125209,
+                "end_char": 125751
+              },
+              {
+                "id": 26,
+                "start_char": 125753,
+                "end_char": 126285
+              },
+              {
+                "id": 27,
+                "start_char": 126287,
+                "end_char": 126426
+              },
+              {
+                "id": 28,
+                "start_char": 126428,
+                "end_char": 126514
+              },
+              {
+                "id": 29,
+                "start_char": 126516,
+                "end_char": 128433
+              },
+              {
+                "id": 30,
+                "start_char": 128435,
+                "end_char": 130932
+              },
+              {
+                "id": 31,
+                "start_char": 130934,
+                "end_char": 131206
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "CHAPTER VIII.",
+            "start_char": 131209,
+            "end_char": 143968,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 131209,
+                "end_char": 131222
+              },
+              {
+                "id": 2,
+                "start_char": 131224,
+                "end_char": 131353
+              },
+              {
+                "id": 3,
+                "start_char": 131356,
+                "end_char": 133518
+              },
+              {
+                "id": 4,
+                "start_char": 133520,
+                "end_char": 134125
+              },
+              {
+                "id": 5,
+                "start_char": 134127,
+                "end_char": 135347
+              },
+              {
+                "id": 6,
+                "start_char": 135349,
+                "end_char": 136001
+              },
+              {
+                "id": 7,
+                "start_char": 136003,
+                "end_char": 136870
+              },
+              {
+                "id": 8,
+                "start_char": 136872,
+                "end_char": 137723
+              },
+              {
+                "id": 9,
+                "start_char": 137725,
+                "end_char": 138286
+              },
+              {
+                "id": 10,
+                "start_char": 138288,
+                "end_char": 138961
+              },
+              {
+                "id": 11,
+                "start_char": 138963,
+                "end_char": 140894
+              },
+              {
+                "id": 12,
+                "start_char": 140896,
+                "end_char": 141772
+              },
+              {
+                "id": 13,
+                "start_char": 141774,
+                "end_char": 142875
+              },
+              {
+                "id": 14,
+                "start_char": 142877,
+                "end_char": 143929
+              },
+              {
+                "id": 15,
+                "start_char": 143932,
+                "end_char": 143965
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "CHAPTER I.",
+            "start_char": 143968,
+            "end_char": 169997,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 143968,
+                "end_char": 143978
+              },
+              {
+                "id": 2,
+                "start_char": 143980,
+                "end_char": 144268
+              },
+              {
+                "id": 3,
+                "start_char": 144271,
+                "end_char": 145781
+              },
+              {
+                "id": 4,
+                "start_char": 145783,
+                "end_char": 147205
+              },
+              {
+                "id": 5,
+                "start_char": 147207,
+                "end_char": 147743
+              },
+              {
+                "id": 6,
+                "start_char": 147745,
+                "end_char": 149567
+              },
+              {
+                "id": 7,
+                "start_char": 149569,
+                "end_char": 153506
+              },
+              {
+                "id": 8,
+                "start_char": 153508,
+                "end_char": 155717
+              },
+              {
+                "id": 9,
+                "start_char": 155719,
+                "end_char": 157492
+              },
+              {
+                "id": 10,
+                "start_char": 157494,
+                "end_char": 158689
+              },
+              {
+                "id": 11,
+                "start_char": 158691,
+                "end_char": 161219
+              },
+              {
+                "id": 12,
+                "start_char": 161221,
+                "end_char": 162671
+              },
+              {
+                "id": 13,
+                "start_char": 162673,
+                "end_char": 164355
+              },
+              {
+                "id": 14,
+                "start_char": 164357,
+                "end_char": 165754
+              },
+              {
+                "id": 15,
+                "start_char": 165756,
+                "end_char": 166122
+              },
+              {
+                "id": 16,
+                "start_char": 166124,
+                "end_char": 167962
+              },
+              {
+                "id": 17,
+                "start_char": 167964,
+                "end_char": 169081
+              },
+              {
+                "id": 18,
+                "start_char": 169083,
+                "end_char": 169994
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "CHAPTER II.",
+            "start_char": 169997,
+            "end_char": 181837,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 169997,
+                "end_char": 170008
+              },
+              {
+                "id": 2,
+                "start_char": 170010,
+                "end_char": 170146
+              },
+              {
+                "id": 3,
+                "start_char": 170149,
+                "end_char": 171973
+              },
+              {
+                "id": 4,
+                "start_char": 171975,
+                "end_char": 175077
+              },
+              {
+                "id": 5,
+                "start_char": 175079,
+                "end_char": 176333
+              },
+              {
+                "id": 6,
+                "start_char": 176335,
+                "end_char": 178049
+              },
+              {
+                "id": 7,
+                "start_char": 178051,
+                "end_char": 178978
+              },
+              {
+                "id": 8,
+                "start_char": 178980,
+                "end_char": 179867
+              },
+              {
+                "id": 9,
+                "start_char": 179869,
+                "end_char": 180660
+              },
+              {
+                "id": 10,
+                "start_char": 180662,
+                "end_char": 181834
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "title": "CHAPTER III.",
+            "start_char": 181837,
+            "end_char": 202953,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 181837,
+                "end_char": 181849
+              },
+              {
+                "id": 2,
+                "start_char": 181851,
+                "end_char": 182171
+              },
+              {
+                "id": 3,
+                "start_char": 182174,
+                "end_char": 184351
+              },
+              {
+                "id": 4,
+                "start_char": 184353,
+                "end_char": 184693
+              },
+              {
+                "id": 5,
+                "start_char": 184695,
+                "end_char": 185806
+              },
+              {
+                "id": 6,
+                "start_char": 185808,
+                "end_char": 186052
+              },
+              {
+                "id": 7,
+                "start_char": 186054,
+                "end_char": 186972
+              },
+              {
+                "id": 8,
+                "start_char": 186974,
+                "end_char": 188010
+              },
+              {
+                "id": 9,
+                "start_char": 188012,
+                "end_char": 189843
+              },
+              {
+                "id": 10,
+                "start_char": 189845,
+                "end_char": 192934
+              },
+              {
+                "id": 11,
+                "start_char": 192936,
+                "end_char": 194684
+              },
+              {
+                "id": 12,
+                "start_char": 194686,
+                "end_char": 196564
+              },
+              {
+                "id": 13,
+                "start_char": 196566,
+                "end_char": 197603
+              },
+              {
+                "id": 14,
+                "start_char": 197605,
+                "end_char": 199440
+              },
+              {
+                "id": 15,
+                "start_char": 199442,
+                "end_char": 200428
+              },
+              {
+                "id": 16,
+                "start_char": 200430,
+                "end_char": 201789
+              },
+              {
+                "id": 17,
+                "start_char": 201791,
+                "end_char": 202950
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "title": "CHAPTER IV.",
+            "start_char": 202953,
+            "end_char": 212962,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 202953,
+                "end_char": 202964
+              },
+              {
+                "id": 2,
+                "start_char": 202966,
+                "end_char": 203142
+              },
+              {
+                "id": 3,
+                "start_char": 203145,
+                "end_char": 204055
+              },
+              {
+                "id": 4,
+                "start_char": 204057,
+                "end_char": 205654
+              },
+              {
+                "id": 5,
+                "start_char": 205656,
+                "end_char": 206408
+              },
+              {
+                "id": 6,
+                "start_char": 206410,
+                "end_char": 208144
+              },
+              {
+                "id": 7,
+                "start_char": 208146,
+                "end_char": 209881
+              },
+              {
+                "id": 8,
+                "start_char": 209883,
+                "end_char": 210337
+              },
+              {
+                "id": 9,
+                "start_char": 210339,
+                "end_char": 211676
+              },
+              {
+                "id": 10,
+                "start_char": 211678,
+                "end_char": 212557
+              },
+              {
+                "id": 11,
+                "start_char": 212559,
+                "end_char": 212959
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "title": "CHAPTER V.",
+            "start_char": 212962,
+            "end_char": 233099,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 212962,
+                "end_char": 212972
+              },
+              {
+                "id": 2,
+                "start_char": 212974,
+                "end_char": 213092
+              },
+              {
+                "id": 3,
+                "start_char": 213095,
+                "end_char": 214181
+              },
+              {
+                "id": 4,
+                "start_char": 214183,
+                "end_char": 215072
+              },
+              {
+                "id": 5,
+                "start_char": 215074,
+                "end_char": 216637
+              },
+              {
+                "id": 6,
+                "start_char": 216639,
+                "end_char": 217470
+              },
+              {
+                "id": 7,
+                "start_char": 217472,
+                "end_char": 218885
+              },
+              {
+                "id": 8,
+                "start_char": 218887,
+                "end_char": 220250
+              },
+              {
+                "id": 9,
+                "start_char": 220252,
+                "end_char": 221524
+              },
+              {
+                "id": 10,
+                "start_char": 221526,
+                "end_char": 222468
+              },
+              {
+                "id": 11,
+                "start_char": 222470,
+                "end_char": 224644
+              },
+              {
+                "id": 12,
+                "start_char": 224646,
+                "end_char": 225282
+              },
+              {
+                "id": 13,
+                "start_char": 225284,
+                "end_char": 226115
+              },
+              {
+                "id": 14,
+                "start_char": 226117,
+                "end_char": 229088
+              },
+              {
+                "id": 15,
+                "start_char": 229090,
+                "end_char": 229651
+              },
+              {
+                "id": 16,
+                "start_char": 229653,
+                "end_char": 230233
+              },
+              {
+                "id": 17,
+                "start_char": 230235,
+                "end_char": 232029
+              },
+              {
+                "id": 18,
+                "start_char": 232031,
+                "end_char": 233096
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "title": "CHAPTER VI.",
+            "start_char": 233099,
+            "end_char": 250993,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 233099,
+                "end_char": 233110
+              },
+              {
+                "id": 2,
+                "start_char": 233112,
+                "end_char": 233316
+              },
+              {
+                "id": 3,
+                "start_char": 233319,
+                "end_char": 234270
+              },
+              {
+                "id": 4,
+                "start_char": 234272,
+                "end_char": 235708
+              },
+              {
+                "id": 5,
+                "start_char": 235710,
+                "end_char": 236276
+              },
+              {
+                "id": 6,
+                "start_char": 236278,
+                "end_char": 237763
+              },
+              {
+                "id": 7,
+                "start_char": 237765,
+                "end_char": 239204
+              },
+              {
+                "id": 8,
+                "start_char": 239206,
+                "end_char": 239436
+              },
+              {
+                "id": 9,
+                "start_char": 239438,
+                "end_char": 241027
+              },
+              {
+                "id": 10,
+                "start_char": 241029,
+                "end_char": 241454
+              },
+              {
+                "id": 11,
+                "start_char": 241456,
+                "end_char": 242200
+              },
+              {
+                "id": 12,
+                "start_char": 242202,
+                "end_char": 242434
+              },
+              {
+                "id": 13,
+                "start_char": 242436,
+                "end_char": 243852
+              },
+              {
+                "id": 14,
+                "start_char": 243854,
+                "end_char": 244927
+              },
+              {
+                "id": 15,
+                "start_char": 244929,
+                "end_char": 246147
+              },
+              {
+                "id": 16,
+                "start_char": 246149,
+                "end_char": 247719
+              },
+              {
+                "id": 17,
+                "start_char": 247721,
+                "end_char": 248283
+              },
+              {
+                "id": 18,
+                "start_char": 248285,
+                "end_char": 248920
+              },
+              {
+                "id": 19,
+                "start_char": 248922,
+                "end_char": 249289
+              },
+              {
+                "id": 20,
+                "start_char": 249291,
+                "end_char": 250990
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "title": "CHAPTER VII.",
+            "start_char": 250993,
+            "end_char": 264601,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 250993,
+                "end_char": 251005
+              },
+              {
+                "id": 2,
+                "start_char": 251007,
+                "end_char": 251266
+              },
+              {
+                "id": 3,
+                "start_char": 251269,
+                "end_char": 252469
+              },
+              {
+                "id": 4,
+                "start_char": 252471,
+                "end_char": 252987
+              },
+              {
+                "id": 5,
+                "start_char": 252989,
+                "end_char": 255119
+              },
+              {
+                "id": 6,
+                "start_char": 255121,
+                "end_char": 255897
+              },
+              {
+                "id": 7,
+                "start_char": 255899,
+                "end_char": 257790
+              },
+              {
+                "id": 8,
+                "start_char": 257792,
+                "end_char": 258239
+              },
+              {
+                "id": 9,
+                "start_char": 258241,
+                "end_char": 258786
+              },
+              {
+                "id": 10,
+                "start_char": 258788,
+                "end_char": 260062
+              },
+              {
+                "id": 11,
+                "start_char": 260064,
+                "end_char": 262409
+              },
+              {
+                "id": 12,
+                "start_char": 262411,
+                "end_char": 263061
+              },
+              {
+                "id": 13,
+                "start_char": 263063,
+                "end_char": 263740
+              },
+              {
+                "id": 14,
+                "start_char": 263742,
+                "end_char": 264598
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "title": "CHAPTER VIII.",
+            "start_char": 264601,
+            "end_char": 289167,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 264601,
+                "end_char": 264614
+              },
+              {
+                "id": 2,
+                "start_char": 264616,
+                "end_char": 264785
+              },
+              {
+                "id": 3,
+                "start_char": 264788,
+                "end_char": 266150
+              },
+              {
+                "id": 4,
+                "start_char": 266152,
+                "end_char": 266977
+              },
+              {
+                "id": 5,
+                "start_char": 266979,
+                "end_char": 269419
+              },
+              {
+                "id": 6,
+                "start_char": 269421,
+                "end_char": 271128
+              },
+              {
+                "id": 7,
+                "start_char": 271130,
+                "end_char": 272462
+              },
+              {
+                "id": 8,
+                "start_char": 272464,
+                "end_char": 273752
+              },
+              {
+                "id": 9,
+                "start_char": 273754,
+                "end_char": 275673
+              },
+              {
+                "id": 10,
+                "start_char": 275675,
+                "end_char": 277477
+              },
+              {
+                "id": 11,
+                "start_char": 277479,
+                "end_char": 281085
+              },
+              {
+                "id": 12,
+                "start_char": 281087,
+                "end_char": 282725
+              },
+              {
+                "id": 13,
+                "start_char": 282727,
+                "end_char": 283210
+              },
+              {
+                "id": 14,
+                "start_char": 283212,
+                "end_char": 283993
+              },
+              {
+                "id": 15,
+                "start_char": 283995,
+                "end_char": 286447
+              },
+              {
+                "id": 16,
+                "start_char": 286449,
+                "end_char": 287452
+              },
+              {
+                "id": 17,
+                "start_char": 287454,
+                "end_char": 287780
+              },
+              {
+                "id": 18,
+                "start_char": 287782,
+                "end_char": 288764
+              },
+              {
+                "id": 19,
+                "start_char": 288766,
+                "end_char": 289086
+              },
+              {
+                "id": 20,
+                "start_char": 289089,
+                "end_char": 289164
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "title": "CHAPTER I.",
+            "start_char": 289167,
+            "end_char": 300283,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 289167,
+                "end_char": 289177
+              },
+              {
+                "id": 2,
+                "start_char": 289179,
+                "end_char": 289320
+              },
+              {
+                "id": 3,
+                "start_char": 289323,
+                "end_char": 290411
+              },
+              {
+                "id": 4,
+                "start_char": 290413,
+                "end_char": 290795
+              },
+              {
+                "id": 5,
+                "start_char": 290797,
+                "end_char": 291535
+              },
+              {
+                "id": 6,
+                "start_char": 291537,
+                "end_char": 291939
+              },
+              {
+                "id": 7,
+                "start_char": 291941,
+                "end_char": 292201
+              },
+              {
+                "id": 8,
+                "start_char": 292203,
+                "end_char": 292887
+              },
+              {
+                "id": 9,
+                "start_char": 292889,
+                "end_char": 294142
+              },
+              {
+                "id": 10,
+                "start_char": 294144,
+                "end_char": 294852
+              },
+              {
+                "id": 11,
+                "start_char": 294854,
+                "end_char": 295176
+              },
+              {
+                "id": 12,
+                "start_char": 295178,
+                "end_char": 297541
+              },
+              {
+                "id": 13,
+                "start_char": 297543,
+                "end_char": 299092
+              },
+              {
+                "id": 14,
+                "start_char": 299094,
+                "end_char": 299954
+              },
+              {
+                "id": 15,
+                "start_char": 299956,
+                "end_char": 300280
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "title": "CHAPTER II.",
+            "start_char": 300283,
+            "end_char": 317656,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 300283,
+                "end_char": 300294
+              },
+              {
+                "id": 2,
+                "start_char": 300296,
+                "end_char": 300514
+              },
+              {
+                "id": 3,
+                "start_char": 300517,
+                "end_char": 302653
+              },
+              {
+                "id": 4,
+                "start_char": 302655,
+                "end_char": 303224
+              },
+              {
+                "id": 5,
+                "start_char": 303226,
+                "end_char": 305439
+              },
+              {
+                "id": 6,
+                "start_char": 305441,
+                "end_char": 305795
+              },
+              {
+                "id": 7,
+                "start_char": 305797,
+                "end_char": 307560
+              },
+              {
+                "id": 8,
+                "start_char": 307562,
+                "end_char": 308181
+              },
+              {
+                "id": 9,
+                "start_char": 308183,
+                "end_char": 309357
+              },
+              {
+                "id": 10,
+                "start_char": 309359,
+                "end_char": 309901
+              },
+              {
+                "id": 11,
+                "start_char": 309903,
+                "end_char": 310552
+              },
+              {
+                "id": 12,
+                "start_char": 310554,
+                "end_char": 311609
+              },
+              {
+                "id": 13,
+                "start_char": 311611,
+                "end_char": 312674
+              },
+              {
+                "id": 14,
+                "start_char": 312676,
+                "end_char": 314186
+              },
+              {
+                "id": 15,
+                "start_char": 314188,
+                "end_char": 314822
+              },
+              {
+                "id": 16,
+                "start_char": 314824,
+                "end_char": 315528
+              },
+              {
+                "id": 17,
+                "start_char": 315530,
+                "end_char": 316867
+              },
+              {
+                "id": 18,
+                "start_char": 316869,
+                "end_char": 317154
+              },
+              {
+                "id": 19,
+                "start_char": 317156,
+                "end_char": 317653
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "title": "CHAPTER III.",
+            "start_char": 317656,
+            "end_char": 332131,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 317656,
+                "end_char": 317668
+              },
+              {
+                "id": 2,
+                "start_char": 317670,
+                "end_char": 317822
+              },
+              {
+                "id": 3,
+                "start_char": 317825,
+                "end_char": 318124
+              },
+              {
+                "id": 4,
+                "start_char": 318126,
+                "end_char": 319354
+              },
+              {
+                "id": 5,
+                "start_char": 319356,
+                "end_char": 320642
+              },
+              {
+                "id": 6,
+                "start_char": 320644,
+                "end_char": 320824
+              },
+              {
+                "id": 7,
+                "start_char": 320826,
+                "end_char": 321443
+              },
+              {
+                "id": 8,
+                "start_char": 321445,
+                "end_char": 322758
+              },
+              {
+                "id": 9,
+                "start_char": 322760,
+                "end_char": 323491
+              },
+              {
+                "id": 10,
+                "start_char": 323493,
+                "end_char": 323777
+              },
+              {
+                "id": 11,
+                "start_char": 323779,
+                "end_char": 325032
+              },
+              {
+                "id": 12,
+                "start_char": 325034,
+                "end_char": 325402
+              },
+              {
+                "id": 13,
+                "start_char": 325404,
+                "end_char": 325705
+              },
+              {
+                "id": 14,
+                "start_char": 325707,
+                "end_char": 326891
+              },
+              {
+                "id": 15,
+                "start_char": 326893,
+                "end_char": 328203
+              },
+              {
+                "id": 16,
+                "start_char": 328205,
+                "end_char": 329186
+              },
+              {
+                "id": 17,
+                "start_char": 329188,
+                "end_char": 330093
+              },
+              {
+                "id": 18,
+                "start_char": 330095,
+                "end_char": 331560
+              },
+              {
+                "id": 19,
+                "start_char": 331562,
+                "end_char": 331712
+              },
+              {
+                "id": 20,
+                "start_char": 331714,
+                "end_char": 331956
+              },
+              {
+                "id": 21,
+                "start_char": 331958,
+                "end_char": 332128
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "title": "CHAPTER IV.",
+            "start_char": 332131,
+            "end_char": 344314,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 332131,
+                "end_char": 332142
+              },
+              {
+                "id": 2,
+                "start_char": 332144,
+                "end_char": 332364
+              },
+              {
+                "id": 3,
+                "start_char": 332367,
+                "end_char": 332707
+              },
+              {
+                "id": 4,
+                "start_char": 332709,
+                "end_char": 333322
+              },
+              {
+                "id": 5,
+                "start_char": 333324,
+                "end_char": 333536
+              },
+              {
+                "id": 6,
+                "start_char": 333538,
+                "end_char": 334593
+              },
+              {
+                "id": 7,
+                "start_char": 334595,
+                "end_char": 334900
+              },
+              {
+                "id": 8,
+                "start_char": 334902,
+                "end_char": 335336
+              },
+              {
+                "id": 9,
+                "start_char": 335338,
+                "end_char": 336041
+              },
+              {
+                "id": 10,
+                "start_char": 336043,
+                "end_char": 337157
+              },
+              {
+                "id": 11,
+                "start_char": 337159,
+                "end_char": 337426
+              },
+              {
+                "id": 12,
+                "start_char": 337428,
+                "end_char": 338401
+              },
+              {
+                "id": 13,
+                "start_char": 338403,
+                "end_char": 339318
+              },
+              {
+                "id": 14,
+                "start_char": 339320,
+                "end_char": 340392
+              },
+              {
+                "id": 15,
+                "start_char": 340394,
+                "end_char": 342460
+              },
+              {
+                "id": 16,
+                "start_char": 342462,
+                "end_char": 343888
+              },
+              {
+                "id": 17,
+                "start_char": 343890,
+                "end_char": 344311
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "title": "CHAPTER V.",
+            "start_char": 344314,
+            "end_char": 359121,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 344314,
+                "end_char": 344324
+              },
+              {
+                "id": 2,
+                "start_char": 344326,
+                "end_char": 344464
+              },
+              {
+                "id": 3,
+                "start_char": 344467,
+                "end_char": 344637
+              },
+              {
+                "id": 4,
+                "start_char": 344639,
+                "end_char": 344827
+              },
+              {
+                "id": 5,
+                "start_char": 344829,
+                "end_char": 345686
+              },
+              {
+                "id": 6,
+                "start_char": 345688,
+                "end_char": 346597
+              },
+              {
+                "id": 7,
+                "start_char": 346599,
+                "end_char": 346767
+              },
+              {
+                "id": 8,
+                "start_char": 346769,
+                "end_char": 347025
+              },
+              {
+                "id": 9,
+                "start_char": 347027,
+                "end_char": 347444
+              },
+              {
+                "id": 10,
+                "start_char": 347446,
+                "end_char": 348215
+              },
+              {
+                "id": 11,
+                "start_char": 348217,
+                "end_char": 349162
+              },
+              {
+                "id": 12,
+                "start_char": 349164,
+                "end_char": 349410
+              },
+              {
+                "id": 13,
+                "start_char": 349412,
+                "end_char": 350592
+              },
+              {
+                "id": 14,
+                "start_char": 350594,
+                "end_char": 350722
+              },
+              {
+                "id": 15,
+                "start_char": 350724,
+                "end_char": 351911
+              },
+              {
+                "id": 16,
+                "start_char": 351913,
+                "end_char": 352043
+              },
+              {
+                "id": 17,
+                "start_char": 352045,
+                "end_char": 354159
+              },
+              {
+                "id": 18,
+                "start_char": 354161,
+                "end_char": 354170
+              },
+              {
+                "id": 19,
+                "start_char": 354173,
+                "end_char": 354697
+              },
+              {
+                "id": 20,
+                "start_char": 354699,
+                "end_char": 354995
+              },
+              {
+                "id": 21,
+                "start_char": 354997,
+                "end_char": 355639
+              },
+              {
+                "id": 22,
+                "start_char": 355641,
+                "end_char": 355766
+              },
+              {
+                "id": 23,
+                "start_char": 355768,
+                "end_char": 355942
+              },
+              {
+                "id": 24,
+                "start_char": 355944,
+                "end_char": 357575
+              },
+              {
+                "id": 25,
+                "start_char": 357577,
+                "end_char": 357897
+              },
+              {
+                "id": 26,
+                "start_char": 357899,
+                "end_char": 358308
+              },
+              {
+                "id": 27,
+                "start_char": 358310,
+                "end_char": 359118
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "title": "CHAPTER VI.",
+            "start_char": 359121,
+            "end_char": 370815,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 359121,
+                "end_char": 359132
+              },
+              {
+                "id": 2,
+                "start_char": 359134,
+                "end_char": 359237
+              },
+              {
+                "id": 3,
+                "start_char": 359240,
+                "end_char": 360115
+              },
+              {
+                "id": 4,
+                "start_char": 360117,
+                "end_char": 362247
+              },
+              {
+                "id": 5,
+                "start_char": 362249,
+                "end_char": 362684
+              },
+              {
+                "id": 6,
+                "start_char": 362686,
+                "end_char": 363293
+              },
+              {
+                "id": 7,
+                "start_char": 363295,
+                "end_char": 363586
+              },
+              {
+                "id": 8,
+                "start_char": 363588,
+                "end_char": 364749
+              },
+              {
+                "id": 9,
+                "start_char": 364751,
+                "end_char": 365986
+              },
+              {
+                "id": 10,
+                "start_char": 365988,
+                "end_char": 366286
+              },
+              {
+                "id": 11,
+                "start_char": 366288,
+                "end_char": 366806
+              },
+              {
+                "id": 12,
+                "start_char": 366808,
+                "end_char": 367676
+              },
+              {
+                "id": 13,
+                "start_char": 367678,
+                "end_char": 368130
+              },
+              {
+                "id": 14,
+                "start_char": 368132,
+                "end_char": 369813
+              },
+              {
+                "id": 15,
+                "start_char": 369815,
+                "end_char": 370540
+              },
+              {
+                "id": 16,
+                "start_char": 370542,
+                "end_char": 370686
+              },
+              {
+                "id": 17,
+                "start_char": 370688,
+                "end_char": 370812
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "title": "CHAPTER VII.",
+            "start_char": 370815,
+            "end_char": 379023,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 370815,
+                "end_char": 370827
+              },
+              {
+                "id": 2,
+                "start_char": 370829,
+                "end_char": 370963
+              },
+              {
+                "id": 3,
+                "start_char": 370966,
+                "end_char": 371916
+              },
+              {
+                "id": 4,
+                "start_char": 371918,
+                "end_char": 372626
+              },
+              {
+                "id": 5,
+                "start_char": 372628,
+                "end_char": 373162
+              },
+              {
+                "id": 6,
+                "start_char": 373164,
+                "end_char": 373518
+              },
+              {
+                "id": 7,
+                "start_char": 373520,
+                "end_char": 375645
+              },
+              {
+                "id": 8,
+                "start_char": 375647,
+                "end_char": 376464
+              },
+              {
+                "id": 9,
+                "start_char": 376466,
+                "end_char": 377151
+              },
+              {
+                "id": 10,
+                "start_char": 377153,
+                "end_char": 377247
+              },
+              {
+                "id": 11,
+                "start_char": 377249,
+                "end_char": 377643
+              },
+              {
+                "id": 12,
+                "start_char": 377645,
+                "end_char": 378513
+              },
+              {
+                "id": 13,
+                "start_char": 378515,
+                "end_char": 379020
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "title": "CHAPTER VIII.",
+            "start_char": 379023,
+            "end_char": 390711,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 379023,
+                "end_char": 379036
+              },
+              {
+                "id": 2,
+                "start_char": 379038,
+                "end_char": 379110
+              },
+              {
+                "id": 3,
+                "start_char": 379113,
+                "end_char": 380632
+              },
+              {
+                "id": 4,
+                "start_char": 380634,
+                "end_char": 381426
+              },
+              {
+                "id": 5,
+                "start_char": 381428,
+                "end_char": 381797
+              },
+              {
+                "id": 6,
+                "start_char": 381799,
+                "end_char": 383608
+              },
+              {
+                "id": 7,
+                "start_char": 383610,
+                "end_char": 384696
+              },
+              {
+                "id": 8,
+                "start_char": 384698,
+                "end_char": 385951
+              },
+              {
+                "id": 9,
+                "start_char": 385953,
+                "end_char": 387327
+              },
+              {
+                "id": 10,
+                "start_char": 387329,
+                "end_char": 387845
+              },
+              {
+                "id": 11,
+                "start_char": 387847,
+                "end_char": 389231
+              },
+              {
+                "id": 12,
+                "start_char": 389233,
+                "end_char": 389612
+              },
+              {
+                "id": 13,
+                "start_char": 389614,
+                "end_char": 390101
+              },
+              {
+                "id": 14,
+                "start_char": 390103,
+                "end_char": 390708
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "title": "CHAPTER IX.",
+            "start_char": 390711,
+            "end_char": 398165,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 390711,
+                "end_char": 390722
+              },
+              {
+                "id": 2,
+                "start_char": 390724,
+                "end_char": 390907
+              },
+              {
+                "id": 3,
+                "start_char": 390910,
+                "end_char": 391865
+              },
+              {
+                "id": 4,
+                "start_char": 391867,
+                "end_char": 393429
+              },
+              {
+                "id": 5,
+                "start_char": 393431,
+                "end_char": 393758
+              },
+              {
+                "id": 6,
+                "start_char": 393760,
+                "end_char": 396494
+              },
+              {
+                "id": 7,
+                "start_char": 396496,
+                "end_char": 397645
+              },
+              {
+                "id": 8,
+                "start_char": 397647,
+                "end_char": 397892
+              },
+              {
+                "id": 9,
+                "start_char": 397894,
+                "end_char": 398162
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "title": "CHAPTER X.",
+            "start_char": 398165,
+            "end_char": 415595,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 398165,
+                "end_char": 398175
+              },
+              {
+                "id": 2,
+                "start_char": 398177,
+                "end_char": 398336
+              },
+              {
+                "id": 3,
+                "start_char": 398339,
+                "end_char": 398747
+              },
+              {
+                "id": 4,
+                "start_char": 398749,
+                "end_char": 400031
+              },
+              {
+                "id": 5,
+                "start_char": 400033,
+                "end_char": 401997
+              },
+              {
+                "id": 6,
+                "start_char": 401999,
+                "end_char": 402938
+              },
+              {
+                "id": 7,
+                "start_char": 402940,
+                "end_char": 403304
+              },
+              {
+                "id": 8,
+                "start_char": 403306,
+                "end_char": 404364
+              },
+              {
+                "id": 9,
+                "start_char": 404366,
+                "end_char": 405374
+              },
+              {
+                "id": 10,
+                "start_char": 405376,
+                "end_char": 405806
+              },
+              {
+                "id": 11,
+                "start_char": 405808,
+                "end_char": 406403
+              },
+              {
+                "id": 12,
+                "start_char": 406405,
+                "end_char": 406615
+              },
+              {
+                "id": 13,
+                "start_char": 406617,
+                "end_char": 408204
+              },
+              {
+                "id": 14,
+                "start_char": 408206,
+                "end_char": 409180
+              },
+              {
+                "id": 15,
+                "start_char": 409182,
+                "end_char": 410943
+              },
+              {
+                "id": 16,
+                "start_char": 410945,
+                "end_char": 411336
+              },
+              {
+                "id": 17,
+                "start_char": 411338,
+                "end_char": 411841
+              },
+              {
+                "id": 18,
+                "start_char": 411843,
+                "end_char": 412497
+              },
+              {
+                "id": 19,
+                "start_char": 412499,
+                "end_char": 412857
+              },
+              {
+                "id": 20,
+                "start_char": 412859,
+                "end_char": 413482
+              },
+              {
+                "id": 21,
+                "start_char": 413484,
+                "end_char": 414065
+              },
+              {
+                "id": 22,
+                "start_char": 414067,
+                "end_char": 414447
+              },
+              {
+                "id": 23,
+                "start_char": 414449,
+                "end_char": 415130
+              },
+              {
+                "id": 24,
+                "start_char": 415132,
+                "end_char": 415592
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "title": "CHAPTER XI.",
+            "start_char": 415595,
+            "end_char": 422639,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 415595,
+                "end_char": 415606
+              },
+              {
+                "id": 2,
+                "start_char": 415608,
+                "end_char": 415739
+              },
+              {
+                "id": 3,
+                "start_char": 415742,
+                "end_char": 416244
+              },
+              {
+                "id": 4,
+                "start_char": 416246,
+                "end_char": 416662
+              },
+              {
+                "id": 5,
+                "start_char": 416664,
+                "end_char": 417139
+              },
+              {
+                "id": 6,
+                "start_char": 417141,
+                "end_char": 420422
+              },
+              {
+                "id": 7,
+                "start_char": 420424,
+                "end_char": 421845
+              },
+              {
+                "id": 8,
+                "start_char": 421847,
+                "end_char": 422286
+              },
+              {
+                "id": 9,
+                "start_char": 422288,
+                "end_char": 422582
+              },
+              {
+                "id": 10,
+                "start_char": 422585,
+                "end_char": 422636
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "title": "CHAPTER I.",
+            "start_char": 422639,
+            "end_char": 436835,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 422639,
+                "end_char": 422649
+              },
+              {
+                "id": 2,
+                "start_char": 422651,
+                "end_char": 422915
+              },
+              {
+                "id": 3,
+                "start_char": 422918,
+                "end_char": 424025
+              },
+              {
+                "id": 4,
+                "start_char": 424027,
+                "end_char": 425576
+              },
+              {
+                "id": 5,
+                "start_char": 425578,
+                "end_char": 426551
+              },
+              {
+                "id": 6,
+                "start_char": 426553,
+                "end_char": 430348
+              },
+              {
+                "id": 7,
+                "start_char": 430350,
+                "end_char": 431597
+              },
+              {
+                "id": 8,
+                "start_char": 431599,
+                "end_char": 432969
+              },
+              {
+                "id": 9,
+                "start_char": 432971,
+                "end_char": 433904
+              },
+              {
+                "id": 10,
+                "start_char": 433906,
+                "end_char": 435292
+              },
+              {
+                "id": 11,
+                "start_char": 435294,
+                "end_char": 436297
+              },
+              {
+                "id": 12,
+                "start_char": 436299,
+                "end_char": 436832
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "title": "CHAPTER II.",
+            "start_char": 436835,
+            "end_char": 448903,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 436835,
+                "end_char": 436846
+              },
+              {
+                "id": 2,
+                "start_char": 436848,
+                "end_char": 437071
+              },
+              {
+                "id": 3,
+                "start_char": 437074,
+                "end_char": 438199
+              },
+              {
+                "id": 4,
+                "start_char": 438201,
+                "end_char": 439850
+              },
+              {
+                "id": 5,
+                "start_char": 439852,
+                "end_char": 440916
+              },
+              {
+                "id": 6,
+                "start_char": 440918,
+                "end_char": 442145
+              },
+              {
+                "id": 7,
+                "start_char": 442147,
+                "end_char": 444209
+              },
+              {
+                "id": 8,
+                "start_char": 444211,
+                "end_char": 445381
+              },
+              {
+                "id": 9,
+                "start_char": 445383,
+                "end_char": 446110
+              },
+              {
+                "id": 10,
+                "start_char": 446112,
+                "end_char": 448151
+              },
+              {
+                "id": 11,
+                "start_char": 448153,
+                "end_char": 448505
+              },
+              {
+                "id": 12,
+                "start_char": 448507,
+                "end_char": 448900
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "title": "CHAPTER III.",
+            "start_char": 448903,
+            "end_char": 460527,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 448903,
+                "end_char": 448915
+              },
+              {
+                "id": 2,
+                "start_char": 448917,
+                "end_char": 449156
+              },
+              {
+                "id": 3,
+                "start_char": 449159,
+                "end_char": 449732
+              },
+              {
+                "id": 4,
+                "start_char": 449734,
+                "end_char": 450066
+              },
+              {
+                "id": 5,
+                "start_char": 450068,
+                "end_char": 451195
+              },
+              {
+                "id": 6,
+                "start_char": 451197,
+                "end_char": 452442
+              },
+              {
+                "id": 7,
+                "start_char": 452444,
+                "end_char": 453447
+              },
+              {
+                "id": 8,
+                "start_char": 453449,
+                "end_char": 453856
+              },
+              {
+                "id": 9,
+                "start_char": 453858,
+                "end_char": 454744
+              },
+              {
+                "id": 10,
+                "start_char": 454746,
+                "end_char": 456139
+              },
+              {
+                "id": 11,
+                "start_char": 456141,
+                "end_char": 456843
+              },
+              {
+                "id": 12,
+                "start_char": 456845,
+                "end_char": 457401
+              },
+              {
+                "id": 13,
+                "start_char": 457403,
+                "end_char": 457925
+              },
+              {
+                "id": 14,
+                "start_char": 457927,
+                "end_char": 458172
+              },
+              {
+                "id": 15,
+                "start_char": 458174,
+                "end_char": 458608
+              },
+              {
+                "id": 16,
+                "start_char": 458610,
+                "end_char": 460524
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "title": "CHAPTER IV.",
+            "start_char": 460527,
+            "end_char": 471536,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 460527,
+                "end_char": 460538
+              },
+              {
+                "id": 2,
+                "start_char": 460540,
+                "end_char": 460724
+              },
+              {
+                "id": 3,
+                "start_char": 460727,
+                "end_char": 461829
+              },
+              {
+                "id": 4,
+                "start_char": 461831,
+                "end_char": 463959
+              },
+              {
+                "id": 5,
+                "start_char": 463961,
+                "end_char": 464918
+              },
+              {
+                "id": 6,
+                "start_char": 464920,
+                "end_char": 468048
+              },
+              {
+                "id": 7,
+                "start_char": 468050,
+                "end_char": 468523
+              },
+              {
+                "id": 8,
+                "start_char": 468525,
+                "end_char": 470180
+              },
+              {
+                "id": 9,
+                "start_char": 470182,
+                "end_char": 471533
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "title": "CHAPTER V.",
+            "start_char": 471536,
+            "end_char": 484631,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 471536,
+                "end_char": 471546
+              },
+              {
+                "id": 2,
+                "start_char": 471548,
+                "end_char": 471722
+              },
+              {
+                "id": 3,
+                "start_char": 471725,
+                "end_char": 472729
+              },
+              {
+                "id": 4,
+                "start_char": 472731,
+                "end_char": 473236
+              },
+              {
+                "id": 5,
+                "start_char": 473238,
+                "end_char": 474271
+              },
+              {
+                "id": 6,
+                "start_char": 474273,
+                "end_char": 476124
+              },
+              {
+                "id": 7,
+                "start_char": 476126,
+                "end_char": 476438
+              },
+              {
+                "id": 8,
+                "start_char": 476440,
+                "end_char": 477122
+              },
+              {
+                "id": 9,
+                "start_char": 477124,
+                "end_char": 478047
+              },
+              {
+                "id": 10,
+                "start_char": 478049,
+                "end_char": 479217
+              },
+              {
+                "id": 11,
+                "start_char": 479219,
+                "end_char": 479986
+              },
+              {
+                "id": 12,
+                "start_char": 479988,
+                "end_char": 480218
+              },
+              {
+                "id": 13,
+                "start_char": 480220,
+                "end_char": 482205
+              },
+              {
+                "id": 14,
+                "start_char": 482207,
+                "end_char": 482600
+              },
+              {
+                "id": 15,
+                "start_char": 482602,
+                "end_char": 483236
+              },
+              {
+                "id": 16,
+                "start_char": 483238,
+                "end_char": 483712
+              },
+              {
+                "id": 17,
+                "start_char": 483714,
+                "end_char": 483983
+              },
+              {
+                "id": 18,
+                "start_char": 483985,
+                "end_char": 484628
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "title": "CHAPTER VI.",
+            "start_char": 484631,
+            "end_char": 498613,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 484631,
+                "end_char": 484642
+              },
+              {
+                "id": 2,
+                "start_char": 484644,
+                "end_char": 484763
+              },
+              {
+                "id": 3,
+                "start_char": 484766,
+                "end_char": 485966
+              },
+              {
+                "id": 4,
+                "start_char": 485968,
+                "end_char": 488108
+              },
+              {
+                "id": 5,
+                "start_char": 488110,
+                "end_char": 488726
+              },
+              {
+                "id": 6,
+                "start_char": 488728,
+                "end_char": 489105
+              },
+              {
+                "id": 7,
+                "start_char": 489107,
+                "end_char": 489709
+              },
+              {
+                "id": 8,
+                "start_char": 489711,
+                "end_char": 490841
+              },
+              {
+                "id": 9,
+                "start_char": 490843,
+                "end_char": 492257
+              },
+              {
+                "id": 10,
+                "start_char": 492259,
+                "end_char": 492527
+              },
+              {
+                "id": 11,
+                "start_char": 492529,
+                "end_char": 492999
+              },
+              {
+                "id": 12,
+                "start_char": 493001,
+                "end_char": 493160
+              },
+              {
+                "id": 13,
+                "start_char": 493162,
+                "end_char": 493540
+              },
+              {
+                "id": 14,
+                "start_char": 493542,
+                "end_char": 494375
+              },
+              {
+                "id": 15,
+                "start_char": 494377,
+                "end_char": 495258
+              },
+              {
+                "id": 16,
+                "start_char": 495260,
+                "end_char": 495751
+              },
+              {
+                "id": 17,
+                "start_char": 495753,
+                "end_char": 495956
+              },
+              {
+                "id": 18,
+                "start_char": 495958,
+                "end_char": 496574
+              },
+              {
+                "id": 19,
+                "start_char": 496576,
+                "end_char": 496987
+              },
+              {
+                "id": 20,
+                "start_char": 496989,
+                "end_char": 498426
+              },
+              {
+                "id": 21,
+                "start_char": 498428,
+                "end_char": 498610
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "title": "CHAPTER VII.",
+            "start_char": 498613,
+            "end_char": 514039,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 498613,
+                "end_char": 498625
+              },
+              {
+                "id": 2,
+                "start_char": 498627,
+                "end_char": 498862
+              },
+              {
+                "id": 3,
+                "start_char": 498865,
+                "end_char": 499917
+              },
+              {
+                "id": 4,
+                "start_char": 499919,
+                "end_char": 500864
+              },
+              {
+                "id": 5,
+                "start_char": 500866,
+                "end_char": 501093
+              },
+              {
+                "id": 6,
+                "start_char": 501095,
+                "end_char": 502380
+              },
+              {
+                "id": 7,
+                "start_char": 502382,
+                "end_char": 502831
+              },
+              {
+                "id": 8,
+                "start_char": 502833,
+                "end_char": 504984
+              },
+              {
+                "id": 9,
+                "start_char": 504986,
+                "end_char": 506332
+              },
+              {
+                "id": 10,
+                "start_char": 506334,
+                "end_char": 506560
+              },
+              {
+                "id": 11,
+                "start_char": 506562,
+                "end_char": 507203
+              },
+              {
+                "id": 12,
+                "start_char": 507205,
+                "end_char": 507819
+              },
+              {
+                "id": 13,
+                "start_char": 507821,
+                "end_char": 508226
+              },
+              {
+                "id": 14,
+                "start_char": 508228,
+                "end_char": 508984
+              },
+              {
+                "id": 15,
+                "start_char": 508986,
+                "end_char": 510282
+              },
+              {
+                "id": 16,
+                "start_char": 510284,
+                "end_char": 510527
+              },
+              {
+                "id": 17,
+                "start_char": 510529,
+                "end_char": 511081
+              },
+              {
+                "id": 18,
+                "start_char": 511083,
+                "end_char": 511934
+              },
+              {
+                "id": 19,
+                "start_char": 511936,
+                "end_char": 512709
+              },
+              {
+                "id": 20,
+                "start_char": 512711,
+                "end_char": 513174
+              },
+              {
+                "id": 21,
+                "start_char": 513176,
+                "end_char": 513417
+              },
+              {
+                "id": 22,
+                "start_char": 513419,
+                "end_char": 513741
+              },
+              {
+                "id": 23,
+                "start_char": 513743,
+                "end_char": 514036
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "title": "CHAPTER VIII.",
+            "start_char": 514039,
+            "end_char": 526309,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 514039,
+                "end_char": 514052
+              },
+              {
+                "id": 2,
+                "start_char": 514054,
+                "end_char": 514215
+              },
+              {
+                "id": 3,
+                "start_char": 514218,
+                "end_char": 515673
+              },
+              {
+                "id": 4,
+                "start_char": 515675,
+                "end_char": 516699
+              },
+              {
+                "id": 5,
+                "start_char": 516701,
+                "end_char": 517260
+              },
+              {
+                "id": 6,
+                "start_char": 517262,
+                "end_char": 517771
+              },
+              {
+                "id": 7,
+                "start_char": 517773,
+                "end_char": 518014
+              },
+              {
+                "id": 8,
+                "start_char": 518016,
+                "end_char": 518902
+              },
+              {
+                "id": 9,
+                "start_char": 518904,
+                "end_char": 519456
+              },
+              {
+                "id": 10,
+                "start_char": 519458,
+                "end_char": 519690
+              },
+              {
+                "id": 11,
+                "start_char": 519692,
+                "end_char": 521244
+              },
+              {
+                "id": 12,
+                "start_char": 521246,
+                "end_char": 522055
+              },
+              {
+                "id": 13,
+                "start_char": 522057,
+                "end_char": 522747
+              },
+              {
+                "id": 14,
+                "start_char": 522749,
+                "end_char": 523113
+              },
+              {
+                "id": 15,
+                "start_char": 523115,
+                "end_char": 523761
+              },
+              {
+                "id": 16,
+                "start_char": 523763,
+                "end_char": 524295
+              },
+              {
+                "id": 17,
+                "start_char": 524297,
+                "end_char": 524795
+              },
+              {
+                "id": 18,
+                "start_char": 524797,
+                "end_char": 525518
+              },
+              {
+                "id": 19,
+                "start_char": 525520,
+                "end_char": 526306
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "title": "CHAPTER IX.",
+            "start_char": 526309,
+            "end_char": 537368,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 526309,
+                "end_char": 526320
+              },
+              {
+                "id": 2,
+                "start_char": 526322,
+                "end_char": 526521
+              },
+              {
+                "id": 3,
+                "start_char": 526524,
+                "end_char": 526858
+              },
+              {
+                "id": 4,
+                "start_char": 526860,
+                "end_char": 529044
+              },
+              {
+                "id": 5,
+                "start_char": 529046,
+                "end_char": 531472
+              },
+              {
+                "id": 6,
+                "start_char": 531474,
+                "end_char": 531799
+              },
+              {
+                "id": 7,
+                "start_char": 531801,
+                "end_char": 532473
+              },
+              {
+                "id": 8,
+                "start_char": 532475,
+                "end_char": 532738
+              },
+              {
+                "id": 9,
+                "start_char": 532740,
+                "end_char": 533684
+              },
+              {
+                "id": 10,
+                "start_char": 533686,
+                "end_char": 534575
+              },
+              {
+                "id": 11,
+                "start_char": 534577,
+                "end_char": 535676
+              },
+              {
+                "id": 12,
+                "start_char": 535678,
+                "end_char": 536547
+              },
+              {
+                "id": 13,
+                "start_char": 536549,
+                "end_char": 537080
+              },
+              {
+                "id": 14,
+                "start_char": 537082,
+                "end_char": 537365
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "title": "CHAPTER X.",
+            "start_char": 537368,
+            "end_char": 552784,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 537368,
+                "end_char": 537378
+              },
+              {
+                "id": 2,
+                "start_char": 537380,
+                "end_char": 537744
+              },
+              {
+                "id": 3,
+                "start_char": 537747,
+                "end_char": 540298
+              },
+              {
+                "id": 4,
+                "start_char": 540300,
+                "end_char": 542689
+              },
+              {
+                "id": 5,
+                "start_char": 542691,
+                "end_char": 543440
+              },
+              {
+                "id": 6,
+                "start_char": 543442,
+                "end_char": 544500
+              },
+              {
+                "id": 7,
+                "start_char": 544502,
+                "end_char": 545940
+              },
+              {
+                "id": 8,
+                "start_char": 545942,
+                "end_char": 546687
+              },
+              {
+                "id": 9,
+                "start_char": 546689,
+                "end_char": 547070
+              },
+              {
+                "id": 10,
+                "start_char": 547072,
+                "end_char": 548973
+              },
+              {
+                "id": 11,
+                "start_char": 548975,
+                "end_char": 549315
+              },
+              {
+                "id": 12,
+                "start_char": 549317,
+                "end_char": 549896
+              },
+              {
+                "id": 13,
+                "start_char": 549898,
+                "end_char": 550068
+              },
+              {
+                "id": 14,
+                "start_char": 550070,
+                "end_char": 551069
+              },
+              {
+                "id": 15,
+                "start_char": 551071,
+                "end_char": 551462
+              },
+              {
+                "id": 16,
+                "start_char": 551464,
+                "end_char": 552651
+              },
+              {
+                "id": 17,
+                "start_char": 552653,
+                "end_char": 552781
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "title": "CHAPTER XI.",
+            "start_char": 552784,
+            "end_char": 569070,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 552784,
+                "end_char": 552795
+              },
+              {
+                "id": 2,
+                "start_char": 552797,
+                "end_char": 553049
+              },
+              {
+                "id": 3,
+                "start_char": 553052,
+                "end_char": 553667
+              },
+              {
+                "id": 4,
+                "start_char": 553669,
+                "end_char": 554272
+              },
+              {
+                "id": 5,
+                "start_char": 554274,
+                "end_char": 555965
+              },
+              {
+                "id": 6,
+                "start_char": 555967,
+                "end_char": 556374
+              },
+              {
+                "id": 7,
+                "start_char": 556376,
+                "end_char": 557203
+              },
+              {
+                "id": 8,
+                "start_char": 557205,
+                "end_char": 558024
+              },
+              {
+                "id": 9,
+                "start_char": 558026,
+                "end_char": 559827
+              },
+              {
+                "id": 10,
+                "start_char": 559829,
+                "end_char": 561060
+              },
+              {
+                "id": 11,
+                "start_char": 561062,
+                "end_char": 561994
+              },
+              {
+                "id": 12,
+                "start_char": 561996,
+                "end_char": 563271
+              },
+              {
+                "id": 13,
+                "start_char": 563273,
+                "end_char": 563839
+              },
+              {
+                "id": 14,
+                "start_char": 563841,
+                "end_char": 564645
+              },
+              {
+                "id": 15,
+                "start_char": 564647,
+                "end_char": 565456
+              },
+              {
+                "id": 16,
+                "start_char": 565458,
+                "end_char": 566131
+              },
+              {
+                "id": 17,
+                "start_char": 566133,
+                "end_char": 566736
+              },
+              {
+                "id": 18,
+                "start_char": 566738,
+                "end_char": 567339
+              },
+              {
+                "id": 19,
+                "start_char": 567341,
+                "end_char": 568055
+              },
+              {
+                "id": 20,
+                "start_char": 568057,
+                "end_char": 569067
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "title": "CHAPTER XII.",
+            "start_char": 569070,
+            "end_char": 601821,
+            "paragraphs": [
+              {
+                "id": 1,
+                "start_char": 569070,
+                "end_char": 569082
+              },
+              {
+                "id": 2,
+                "start_char": 569084,
+                "end_char": 569590
+              },
+              {
+                "id": 3,
+                "start_char": 569593,
+                "end_char": 570001
+              },
+              {
+                "id": 4,
+                "start_char": 570003,
+                "end_char": 570361
+              },
+              {
+                "id": 5,
+                "start_char": 570363,
+                "end_char": 571604
+              },
+              {
+                "id": 6,
+                "start_char": 571607,
+                "end_char": 571640
+              },
+              {
+                "id": 7,
+                "start_char": 571642,
+                "end_char": 571696
+              },
+              {
+                "id": 8,
+                "start_char": 571698,
+                "end_char": 573020
+              },
+              {
+                "id": 9,
+                "start_char": 573022,
+                "end_char": 574220
+              },
+              {
+                "id": 10,
+                "start_char": 574222,
+                "end_char": 576100
+              },
+              {
+                "id": 11,
+                "start_char": 576102,
+                "end_char": 577290
+              },
+              {
+                "id": 12,
+                "start_char": 577292,
+                "end_char": 578105
+              },
+              {
+                "id": 13,
+                "start_char": 578107,
+                "end_char": 579110
+              },
+              {
+                "id": 14,
+                "start_char": 579112,
+                "end_char": 579367
+              },
+              {
+                "id": 15,
+                "start_char": 579369,
+                "end_char": 580200
+              },
+              {
+                "id": 16,
+                "start_char": 580202,
+                "end_char": 580735
+              },
+              {
+                "id": 17,
+                "start_char": 580737,
+                "end_char": 581981
+              },
+              {
+                "id": 18,
+                "start_char": 581984,
+                "end_char": 582495
+              },
+              {
+                "id": 19,
+                "start_char": 582498,
+                "end_char": 582508
+              },
+              {
+                "id": 20,
+                "start_char": 582510,
+                "end_char": 582568
+              },
+              {
+                "id": 21,
+                "start_char": 582570,
+                "end_char": 582674
+              },
+              {
+                "id": 22,
+                "start_char": 582676,
+                "end_char": 582709
+              },
+              {
+                "id": 23,
+                "start_char": 582711,
+                "end_char": 582741
+              },
+              {
+                "id": 24,
+                "start_char": 582743,
+                "end_char": 583083
+              },
+              {
+                "id": 25,
+                "start_char": 583085,
+                "end_char": 583138
+              },
+              {
+                "id": 26,
+                "start_char": 583140,
+                "end_char": 583291
+              },
+              {
+                "id": 27,
+                "start_char": 583296,
+                "end_char": 583398
+              },
+              {
+                "id": 28,
+                "start_char": 583407,
+                "end_char": 583487
+              },
+              {
+                "id": 29,
+                "start_char": 583489,
+                "end_char": 584673
+              },
+              {
+                "id": 30,
+                "start_char": 584676,
+                "end_char": 584695
+              },
+              {
+                "id": 31,
+                "start_char": 584697,
+                "end_char": 584731
+              },
+              {
+                "id": 32,
+                "start_char": 584733,
+                "end_char": 584788
+              },
+              {
+                "id": 33,
+                "start_char": 584790,
+                "end_char": 585144
+              },
+              {
+                "id": 34,
+                "start_char": 585146,
+                "end_char": 585232
+              },
+              {
+                "id": 35,
+                "start_char": 585234,
+                "end_char": 585908
+              },
+              {
+                "id": 36,
+                "start_char": 585910,
+                "end_char": 586491
+              },
+              {
+                "id": 37,
+                "start_char": 586493,
+                "end_char": 587538
+              },
+              {
+                "id": 38,
+                "start_char": 587540,
+                "end_char": 588103
+              },
+              {
+                "id": 39,
+                "start_char": 588105,
+                "end_char": 588170
+              },
+              {
+                "id": 40,
+                "start_char": 588172,
+                "end_char": 588546
+              },
+              {
+                "id": 41,
+                "start_char": 588552,
+                "end_char": 589680
+              },
+              {
+                "id": 42,
+                "start_char": 589682,
+                "end_char": 590100
+              },
+              {
+                "id": 43,
+                "start_char": 590102,
+                "end_char": 590298
+              },
+              {
+                "id": 44,
+                "start_char": 590300,
+                "end_char": 590587
+              },
+              {
+                "id": 45,
+                "start_char": 590589,
+                "end_char": 591326
+              },
+              {
+                "id": 46,
+                "start_char": 591328,
+                "end_char": 591504
+              },
+              {
+                "id": 47,
+                "start_char": 591506,
+                "end_char": 591648
+              },
+              {
+                "id": 48,
+                "start_char": 591654,
+                "end_char": 593319
+              },
+              {
+                "id": 49,
+                "start_char": 593326,
+                "end_char": 593685
+              },
+              {
+                "id": 50,
+                "start_char": 593687,
+                "end_char": 593691
+              },
+              {
+                "id": 51,
+                "start_char": 593693,
+                "end_char": 594327
+              },
+              {
+                "id": 52,
+                "start_char": 594329,
+                "end_char": 595137
+              },
+              {
+                "id": 53,
+                "start_char": 595139,
+                "end_char": 595939
+              },
+              {
+                "id": 54,
+                "start_char": 595941,
+                "end_char": 596214
+              },
+              {
+                "id": 55,
+                "start_char": 596216,
+                "end_char": 596699
+              },
+              {
+                "id": 56,
+                "start_char": 596701,
+                "end_char": 597383
+              },
+              {
+                "id": 57,
+                "start_char": 597385,
+                "end_char": 597447
+              },
+              {
+                "id": 58,
+                "start_char": 597449,
+                "end_char": 597746
+              },
+              {
+                "id": 59,
+                "start_char": 597748,
+                "end_char": 598343
+              },
+              {
+                "id": 60,
+                "start_char": 598345,
+                "end_char": 598423
+              },
+              {
+                "id": 61,
+                "start_char": 598425,
+                "end_char": 598872
+              },
+              {
+                "id": 62,
+                "start_char": 598874,
+                "end_char": 599126
+              },
+              {
+                "id": 63,
+                "start_char": 599128,
+                "end_char": 599219
+              },
+              {
+                "id": 64,
+                "start_char": 599221,
+                "end_char": 599645
+              },
+              {
+                "id": 65,
+                "start_char": 599647,
+                "end_char": 600153
+              },
+              {
+                "id": 66,
+                "start_char": 600155,
+                "end_char": 600400
+              },
+              {
+                "id": 67,
+                "start_char": 600402,
+                "end_char": 600602
+              },
+              {
+                "id": 68,
+                "start_char": 600604,
+                "end_char": 600853
+              },
+              {
+                "id": 69,
+                "start_char": 600855,
+                "end_char": 600927
+              },
+              {
+                "id": 70,
+                "start_char": 600929,
+                "end_char": 601200
+              },
+              {
+                "id": 71,
+                "start_char": 601202,
+                "end_char": 601473
+              },
+              {
+                "id": 72,
+                "start_char": 601475,
+                "end_char": 601565
+              },
+              {
+                "id": 73,
+                "start_char": 601567,
+                "end_char": 601819
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

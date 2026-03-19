@@ -6,10 +6,10 @@ from pathlib import Path
 
 from .token_strategy import TokenizationStrategy, strategy_id
 from .preprocess_pipe import preprocess, tokenize
-from carrierPidgeonAPI.service.app.corpus import load_raw_text, save_tokens, load_tokens, tokens_exist
-from carrierPidgeonAPI.service.app.logging import logging, setup_logging
+from service.app.corpus import load_raw_text, save_tokens, load_tokens, tokens_exist
+from service.app.logging import logging, setup_logging
 
-from bookService.service.app.config import PROCESSED_DIR
+from service.app.config import PROCESSED_DIR
 
 setup_logging()
 logger = logging.getLogger(__name__)

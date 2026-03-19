@@ -13,7 +13,6 @@ class TokenizationStrategy(BaseModel):
     stopword_set: str | None = None
     extra: Dict = {}
 
-
 def strategy_id(strategy: TokenizationStrategy) -> str:
     payload = json.dumps(strategy.dict(), sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()[:12]

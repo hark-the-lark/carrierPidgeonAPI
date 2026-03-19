@@ -1,2 +1,3 @@
 pydantic
-fastAPI
+fastapi
+uvicorn[standard]

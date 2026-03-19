@@ -1,0 +1,2461 @@
+{
+  "doc_id": "mobey_dick",
+  "strategy": {
+    "name": "",
+    "version": ""
+  },
+  "structure": {
+    "level_names": [
+      "book",
+      "chapter",
+      "paragraphs"
+    ],
+    "books": [
+      {
+        "id": 1,
+        "title": "Full Text",
+        "start_char": 0,
+        "end_char": 1215919,
+        "chapters": [
+          {
+            "id": 1,
+            "title": "CHAPTER 135. The Chase.—Third Day.",
+            "start_char": 4483,
+            "end_char": 26434,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 4483,
+                "end_char": 4517
+              },
+              {
+                "id": 2,
+                "start_char": 4519,
+                "end_char": 4527
+              },
+              {
+                "id": 3,
+                "start_char": 4531,
+                "end_char": 4560
+              },
+              {
+                "id": 4,
+                "start_char": 4562,
+                "end_char": 4908
+              },
+              {
+                "id": 5,
+                "start_char": 4914,
+                "end_char": 4924
+              },
+              {
+                "id": 6,
+                "start_char": 4926,
+                "end_char": 4985
+              },
+              {
+                "id": 7,
+                "start_char": 4987,
+                "end_char": 6077
+              },
+              {
+                "id": 8,
+                "start_char": 6082,
+                "end_char": 6126
+              },
+              {
+                "id": 9,
+                "start_char": 6128,
+                "end_char": 7858
+              },
+              {
+                "id": 10,
+                "start_char": 7860,
+                "end_char": 11799
+              },
+              {
+                "id": 11,
+                "start_char": 11806,
+                "end_char": 16718
+              },
+              {
+                "id": 12,
+                "start_char": 16725,
+                "end_char": 16874
+              },
+              {
+                "id": 13,
+                "start_char": 16881,
+                "end_char": 18392
+              },
+              {
+                "id": 14,
+                "start_char": 18399,
+                "end_char": 26428
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "CHAPTER 1. Loomings.",
+            "start_char": 26434,
+            "end_char": 38630,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 26434,
+                "end_char": 26454
+              },
+              {
+                "id": 2,
+                "start_char": 26456,
+                "end_char": 38625
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "CHAPTER 2. The Carpet-Bag.",
+            "start_char": 38630,
+            "end_char": 46563,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 38630,
+                "end_char": 38656
+              },
+              {
+                "id": 2,
+                "start_char": 38658,
+                "end_char": 46558
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "CHAPTER 3. The Spouter-Inn.",
+            "start_char": 46563,
+            "end_char": 78485,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 46563,
+                "end_char": 46590
+              },
+              {
+                "id": 2,
+                "start_char": 46592,
+                "end_char": 78480
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "CHAPTER 4. The Counterpane.",
+            "start_char": 78485,
+            "end_char": 87610,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 78485,
+                "end_char": 78512
+              },
+              {
+                "id": 2,
+                "start_char": 78514,
+                "end_char": 87605
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "CHAPTER 5. Breakfast.",
+            "start_char": 87610,
+            "end_char": 91800,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 87610,
+                "end_char": 87631
+              },
+              {
+                "id": 2,
+                "start_char": 87633,
+                "end_char": 91795
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "CHAPTER 6. The Street.",
+            "start_char": 91800,
+            "end_char": 96614,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 91800,
+                "end_char": 91822
+              },
+              {
+                "id": 2,
+                "start_char": 91824,
+                "end_char": 96609
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "CHAPTER 7. The Chapel.",
+            "start_char": 96614,
+            "end_char": 101981,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 96614,
+                "end_char": 96636
+              },
+              {
+                "id": 2,
+                "start_char": 96638,
+                "end_char": 101976
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "CHAPTER 8. The Pulpit.",
+            "start_char": 101981,
+            "end_char": 107391,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 101981,
+                "end_char": 102003
+              },
+              {
+                "id": 2,
+                "start_char": 102005,
+                "end_char": 107386
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "CHAPTER 9. The Sermon.",
+            "start_char": 107391,
+            "end_char": 127172,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 107391,
+                "end_char": 107413
+              },
+              {
+                "id": 2,
+                "start_char": 107415,
+                "end_char": 108461
+              },
+              {
+                "id": 3,
+                "start_char": 108468,
+                "end_char": 108623
+              },
+              {
+                "id": 4,
+                "start_char": 108630,
+                "end_char": 108788
+              },
+              {
+                "id": 5,
+                "start_char": 108795,
+                "end_char": 108942
+              },
+              {
+                "id": 6,
+                "start_char": 108949,
+                "end_char": 127167
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "title": "CHAPTER 10. A Bosom Friend.",
+            "start_char": 127172,
+            "end_char": 135873,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 127172,
+                "end_char": 127199
+              },
+              {
+                "id": 2,
+                "start_char": 127201,
+                "end_char": 135868
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "title": "CHAPTER 11. Nightgown.",
+            "start_char": 135873,
+            "end_char": 139824,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 135873,
+                "end_char": 135895
+              },
+              {
+                "id": 2,
+                "start_char": 135897,
+                "end_char": 139819
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "title": "CHAPTER 12. Biographical.",
+            "start_char": 139824,
+            "end_char": 144709,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 139824,
+                "end_char": 139849
+              },
+              {
+                "id": 2,
+                "start_char": 139851,
+                "end_char": 144704
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "title": "CHAPTER 13. Wheelbarrow.",
+            "start_char": 144709,
+            "end_char": 154395,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 144709,
+                "end_char": 144733
+              },
+              {
+                "id": 2,
+                "start_char": 144735,
+                "end_char": 154390
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "title": "CHAPTER 14. Nantucket.",
+            "start_char": 154395,
+            "end_char": 158736,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 154395,
+                "end_char": 154417
+              },
+              {
+                "id": 2,
+                "start_char": 154419,
+                "end_char": 158731
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "title": "CHAPTER 15. Chowder.",
+            "start_char": 158736,
+            "end_char": 165324,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 158736,
+                "end_char": 158756
+              },
+              {
+                "id": 2,
+                "start_char": 158758,
+                "end_char": 165319
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "title": "CHAPTER 16. The Ship.",
+            "start_char": 165324,
+            "end_char": 195752,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 165324,
+                "end_char": 165345
+              },
+              {
+                "id": 2,
+                "start_char": 165347,
+                "end_char": 195747
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "title": "CHAPTER 17. The Ramadan.",
+            "start_char": 195752,
+            "end_char": 208374,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 195752,
+                "end_char": 195776
+              },
+              {
+                "id": 2,
+                "start_char": 195778,
+                "end_char": 208369
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "title": "CHAPTER 18. His Mark.",
+            "start_char": 208374,
+            "end_char": 216057,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 208374,
+                "end_char": 208395
+              },
+              {
+                "id": 2,
+                "start_char": 208397,
+                "end_char": 216052
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "title": "CHAPTER 19. The Prophet.",
+            "start_char": 216057,
+            "end_char": 222595,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 216057,
+                "end_char": 216081
+              },
+              {
+                "id": 2,
+                "start_char": 216083,
+                "end_char": 222590
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "title": "CHAPTER 20. All Astir.",
+            "start_char": 222595,
+            "end_char": 227754,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 222595,
+                "end_char": 222617
+              },
+              {
+                "id": 2,
+                "start_char": 222619,
+                "end_char": 227749
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "title": "CHAPTER 21. Going Aboard.",
+            "start_char": 227754,
+            "end_char": 233880,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 227754,
+                "end_char": 227779
+              },
+              {
+                "id": 2,
+                "start_char": 227781,
+                "end_char": 233875
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "title": "CHAPTER 22. Merry Christmas.",
+            "start_char": 233880,
+            "end_char": 243058,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 233880,
+                "end_char": 233908
+              },
+              {
+                "id": 2,
+                "start_char": 233910,
+                "end_char": 243053
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "title": "CHAPTER 23. The Lee Shore.",
+            "start_char": 243058,
+            "end_char": 245235,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 243058,
+                "end_char": 243084
+              },
+              {
+                "id": 2,
+                "start_char": 243086,
+                "end_char": 245230
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "title": "CHAPTER 24. The Advocate.",
+            "start_char": 245235,
+            "end_char": 254922,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 245235,
+                "end_char": 245260
+              },
+              {
+                "id": 2,
+                "start_char": 245262,
+                "end_char": 254917
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "title": "CHAPTER 26. Knights and Squires.",
+            "start_char": 256541,
+            "end_char": 263572,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 256541,
+                "end_char": 256573
+              },
+              {
+                "id": 2,
+                "start_char": 256575,
+                "end_char": 263567
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "title": "CHAPTER 27. Knights and Squires.",
+            "start_char": 263572,
+            "end_char": 273087,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 263572,
+                "end_char": 263604
+              },
+              {
+                "id": 2,
+                "start_char": 263606,
+                "end_char": 273082
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "title": "CHAPTER 28. Ahab.",
+            "start_char": 273087,
+            "end_char": 281167,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 273087,
+                "end_char": 273104
+              },
+              {
+                "id": 2,
+                "start_char": 273106,
+                "end_char": 281162
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "title": "CHAPTER 29. Enter Ahab; to Him, Stubb.",
+            "start_char": 281167,
+            "end_char": 287725,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 281167,
+                "end_char": 281205
+              },
+              {
+                "id": 2,
+                "start_char": 281207,
+                "end_char": 287720
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "title": "CHAPTER 31. Queen Mab.",
+            "start_char": 289327,
+            "end_char": 293770,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 289327,
+                "end_char": 289349
+              },
+              {
+                "id": 2,
+                "start_char": 289351,
+                "end_char": 293765
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "title": "CHAPTER 32. Cetology.",
+            "start_char": 293770,
+            "end_char": 323601,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 293770,
+                "end_char": 293791
+              },
+              {
+                "id": 2,
+                "start_char": 293793,
+                "end_char": 323596
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "title": "CHAPTER 33. The Specksnyder.",
+            "start_char": 323601,
+            "end_char": 329420,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 323601,
+                "end_char": 323629
+              },
+              {
+                "id": 2,
+                "start_char": 323631,
+                "end_char": 329415
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "title": "CHAPTER 34. The Cabin-Table.",
+            "start_char": 329420,
+            "end_char": 342110,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 329420,
+                "end_char": 329448
+              },
+              {
+                "id": 2,
+                "start_char": 329450,
+                "end_char": 342105
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "title": "CHAPTER 35. The Mast-Head.",
+            "start_char": 342110,
+            "end_char": 356858,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 342110,
+                "end_char": 342136
+              },
+              {
+                "id": 2,
+                "start_char": 342138,
+                "end_char": 356853
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "title": "CHAPTER 36. The Quarter-Deck.",
+            "start_char": 356858,
+            "end_char": 372680,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 356858,
+                "end_char": 356887
+              },
+              {
+                "id": 2,
+                "start_char": 356889,
+                "end_char": 372675
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "title": "CHAPTER 37. Sunset.",
+            "start_char": 372680,
+            "end_char": 375451,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 372680,
+                "end_char": 372699
+              },
+              {
+                "id": 2,
+                "start_char": 372701,
+                "end_char": 375446
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "title": "CHAPTER 38. Dusk.",
+            "start_char": 375451,
+            "end_char": 377543,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 375451,
+                "end_char": 375468
+              },
+              {
+                "id": 2,
+                "start_char": 375470,
+                "end_char": 377538
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "title": "CHAPTER 40. Midnight, Forecastle.",
+            "start_char": 379014,
+            "end_char": 387876,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 379014,
+                "end_char": 379047
+              },
+              {
+                "id": 2,
+                "start_char": 379049,
+                "end_char": 387871
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "title": "CHAPTER 41. Moby Dick.",
+            "start_char": 387876,
+            "end_char": 409829,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 387876,
+                "end_char": 387898
+              },
+              {
+                "id": 2,
+                "start_char": 387900,
+                "end_char": 409824
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "title": "CHAPTER 42. The Whiteness of the Whale.",
+            "start_char": 409829,
+            "end_char": 430952,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 409829,
+                "end_char": 409868
+              },
+              {
+                "id": 2,
+                "start_char": 409870,
+                "end_char": 430947
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "title": "CHAPTER 44. The Chart.",
+            "start_char": 432674,
+            "end_char": 444705,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 432674,
+                "end_char": 432696
+              },
+              {
+                "id": 2,
+                "start_char": 432698,
+                "end_char": 444700
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "title": "CHAPTER 45. The Affidavit.",
+            "start_char": 444705,
+            "end_char": 464819,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 444705,
+                "end_char": 444731
+              },
+              {
+                "id": 2,
+                "start_char": 444733,
+                "end_char": 464814
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "title": "CHAPTER 46. Surmises.",
+            "start_char": 464819,
+            "end_char": 470809,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 464819,
+                "end_char": 464840
+              },
+              {
+                "id": 2,
+                "start_char": 464842,
+                "end_char": 470804
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "title": "CHAPTER 47. The Mat-Maker.",
+            "start_char": 470809,
+            "end_char": 476164,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 470809,
+                "end_char": 470835
+              },
+              {
+                "id": 2,
+                "start_char": 470837,
+                "end_char": 476159
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "title": "CHAPTER 48. The First Lowering.",
+            "start_char": 476164,
+            "end_char": 498587,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 476164,
+                "end_char": 476195
+              },
+              {
+                "id": 2,
+                "start_char": 476197,
+                "end_char": 498582
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "title": "CHAPTER 49. The Hyena.",
+            "start_char": 498587,
+            "end_char": 503269,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 498587,
+                "end_char": 498609
+              },
+              {
+                "id": 2,
+                "start_char": 498611,
+                "end_char": 503264
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "title": "CHAPTER 50. Ahab’s Boat and Crew. Fedallah.",
+            "start_char": 503269,
+            "end_char": 509010,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 503269,
+                "end_char": 503312
+              },
+              {
+                "id": 2,
+                "start_char": 503314,
+                "end_char": 509005
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "title": "CHAPTER 51. The Spirit-Spout.",
+            "start_char": 509010,
+            "end_char": 517692,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 509010,
+                "end_char": 509039
+              },
+              {
+                "id": 2,
+                "start_char": 509041,
+                "end_char": 517687
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "title": "CHAPTER 52. The Albatross.",
+            "start_char": 517692,
+            "end_char": 521742,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 517692,
+                "end_char": 517718
+              },
+              {
+                "id": 2,
+                "start_char": 517720,
+                "end_char": 521737
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "title": "CHAPTER 53. The Gam.",
+            "start_char": 521742,
+            "end_char": 531105,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 521742,
+                "end_char": 521762
+              },
+              {
+                "id": 2,
+                "start_char": 521764,
+                "end_char": 531100
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "title": "CHAPTER 54. The Town-Ho’s Story.",
+            "start_char": 531105,
+            "end_char": 575983,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 531105,
+                "end_char": 531137
+              },
+              {
+                "id": 2,
+                "start_char": 531139,
+                "end_char": 575978
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "title": "CHAPTER 55. Of the Monstrous Pictures of Whales.",
+            "start_char": 575983,
+            "end_char": 586911,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 575983,
+                "end_char": 576031
+              },
+              {
+                "id": 2,
+                "start_char": 576033,
+                "end_char": 586906
+              }
+            ]
+          },
+          {
+            "id": 53,
+            "title": "CHAPTER 56. Of the Less Erroneous Pictures of Whales, and the True Pictures of Whaling Scenes.",
+            "start_char": 586911,
+            "end_char": 594490,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 586911,
+                "end_char": 587005
+              },
+              {
+                "id": 2,
+                "start_char": 587007,
+                "end_char": 594485
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "title": "CHAPTER 57. Of Whales in Paint; in Teeth; in Wood; in Sheet-Iron; in Stone; in Mountains; in Stars.",
+            "start_char": 594490,
+            "end_char": 600057,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 594490,
+                "end_char": 594589
+              },
+              {
+                "id": 2,
+                "start_char": 594591,
+                "end_char": 600052
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "title": "CHAPTER 58. Brit.",
+            "start_char": 600057,
+            "end_char": 605817,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 600057,
+                "end_char": 600074
+              },
+              {
+                "id": 2,
+                "start_char": 600076,
+                "end_char": 605812
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "title": "CHAPTER 59. Squid.",
+            "start_char": 605817,
+            "end_char": 611160,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 605817,
+                "end_char": 605835
+              },
+              {
+                "id": 2,
+                "start_char": 605837,
+                "end_char": 611155
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "title": "CHAPTER 60. The Line.",
+            "start_char": 611160,
+            "end_char": 619372,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 611160,
+                "end_char": 611181
+              },
+              {
+                "id": 2,
+                "start_char": 611183,
+                "end_char": 619367
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "title": "CHAPTER 61. Stubb Kills a Whale.",
+            "start_char": 619372,
+            "end_char": 630464,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 619372,
+                "end_char": 619404
+              },
+              {
+                "id": 2,
+                "start_char": 619406,
+                "end_char": 630459
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "title": "CHAPTER 62. The Dart.",
+            "start_char": 630464,
+            "end_char": 633613,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 630464,
+                "end_char": 630485
+              },
+              {
+                "id": 2,
+                "start_char": 630487,
+                "end_char": 633608
+              }
+            ]
+          },
+          {
+            "id": 60,
+            "title": "CHAPTER 63. The Crotch.",
+            "start_char": 633613,
+            "end_char": 636446,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 633613,
+                "end_char": 633636
+              },
+              {
+                "id": 2,
+                "start_char": 633638,
+                "end_char": 636441
+              }
+            ]
+          },
+          {
+            "id": 61,
+            "title": "CHAPTER 64. Stubb’s Supper.",
+            "start_char": 636446,
+            "end_char": 652924,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 636446,
+                "end_char": 636473
+              },
+              {
+                "id": 2,
+                "start_char": 636475,
+                "end_char": 652919
+              }
+            ]
+          },
+          {
+            "id": 62,
+            "title": "CHAPTER 65. The Whale as a Dish.",
+            "start_char": 652924,
+            "end_char": 658409,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 652924,
+                "end_char": 652956
+              },
+              {
+                "id": 2,
+                "start_char": 652958,
+                "end_char": 658404
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "title": "CHAPTER 66. The Shark Massacre.",
+            "start_char": 658409,
+            "end_char": 662033,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 658409,
+                "end_char": 658440
+              },
+              {
+                "id": 2,
+                "start_char": 658442,
+                "end_char": 662028
+              }
+            ]
+          },
+          {
+            "id": 64,
+            "title": "CHAPTER 67. Cutting In.",
+            "start_char": 662033,
+            "end_char": 666236,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 662033,
+                "end_char": 662056
+              },
+              {
+                "id": 2,
+                "start_char": 662058,
+                "end_char": 666231
+              }
+            ]
+          },
+          {
+            "id": 65,
+            "title": "CHAPTER 68. The Blanket.",
+            "start_char": 666236,
+            "end_char": 673012,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 666236,
+                "end_char": 666260
+              },
+              {
+                "id": 2,
+                "start_char": 666262,
+                "end_char": 673007
+              }
+            ]
+          },
+          {
+            "id": 66,
+            "title": "CHAPTER 69. The Funeral.",
+            "start_char": 673012,
+            "end_char": 675526,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 673012,
+                "end_char": 673036
+              },
+              {
+                "id": 2,
+                "start_char": 673038,
+                "end_char": 675521
+              }
+            ]
+          },
+          {
+            "id": 67,
+            "title": "CHAPTER 70. The Sphynx.",
+            "start_char": 675526,
+            "end_char": 680567,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 675526,
+                "end_char": 675549
+              },
+              {
+                "id": 2,
+                "start_char": 675551,
+                "end_char": 680562
+              }
+            ]
+          },
+          {
+            "id": 68,
+            "title": "CHAPTER 71. The Jeroboam’s Story.",
+            "start_char": 680567,
+            "end_char": 693730,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 680567,
+                "end_char": 680600
+              },
+              {
+                "id": 2,
+                "start_char": 680602,
+                "end_char": 693725
+              }
+            ]
+          },
+          {
+            "id": 69,
+            "title": "CHAPTER 72. The Monkey-Rope.",
+            "start_char": 693730,
+            "end_char": 703025,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 693730,
+                "end_char": 693758
+              },
+              {
+                "id": 2,
+                "start_char": 693760,
+                "end_char": 703020
+              }
+            ]
+          },
+          {
+            "id": 70,
+            "title": "CHAPTER 73. Stubb and Flask kill a Right Whale; and Then Have a Talk over Him.",
+            "start_char": 703025,
+            "end_char": 714620,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 703025,
+                "end_char": 703103
+              },
+              {
+                "id": 2,
+                "start_char": 703105,
+                "end_char": 714615
+              }
+            ]
+          },
+          {
+            "id": 71,
+            "title": "CHAPTER 74. The Sperm Whale’s Head—Contrasted View.",
+            "start_char": 714620,
+            "end_char": 723706,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 714620,
+                "end_char": 714671
+              },
+              {
+                "id": 2,
+                "start_char": 714673,
+                "end_char": 723701
+              }
+            ]
+          },
+          {
+            "id": 72,
+            "title": "CHAPTER 75. The Right Whale’s Head—Contrasted View.",
+            "start_char": 723706,
+            "end_char": 730520,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 723706,
+                "end_char": 723757
+              },
+              {
+                "id": 2,
+                "start_char": 723759,
+                "end_char": 730515
+              }
+            ]
+          },
+          {
+            "id": 73,
+            "title": "CHAPTER 76. The Battering-Ram.",
+            "start_char": 730520,
+            "end_char": 735582,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 730520,
+                "end_char": 730550
+              },
+              {
+                "id": 2,
+                "start_char": 730552,
+                "end_char": 735577
+              }
+            ]
+          },
+          {
+            "id": 74,
+            "title": "CHAPTER 77. The Great Heidelburgh Tun.",
+            "start_char": 735582,
+            "end_char": 739384,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 735582,
+                "end_char": 735620
+              },
+              {
+                "id": 2,
+                "start_char": 735622,
+                "end_char": 739379
+              }
+            ]
+          },
+          {
+            "id": 75,
+            "title": "CHAPTER 78. Cistern and Buckets.",
+            "start_char": 739384,
+            "end_char": 748671,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 739384,
+                "end_char": 739416
+              },
+              {
+                "id": 2,
+                "start_char": 739418,
+                "end_char": 748666
+              }
+            ]
+          },
+          {
+            "id": 76,
+            "title": "CHAPTER 79. The Prairie.",
+            "start_char": 748671,
+            "end_char": 754054,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 748671,
+                "end_char": 748695
+              },
+              {
+                "id": 2,
+                "start_char": 748697,
+                "end_char": 754049
+              }
+            ]
+          },
+          {
+            "id": 77,
+            "title": "CHAPTER 80. The Nut.",
+            "start_char": 754054,
+            "end_char": 759204,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 754054,
+                "end_char": 754074
+              },
+              {
+                "id": 2,
+                "start_char": 754076,
+                "end_char": 759199
+              }
+            ]
+          },
+          {
+            "id": 78,
+            "title": "CHAPTER 81. The Pequod Meets The Virgin.",
+            "start_char": 759204,
+            "end_char": 783595,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 759204,
+                "end_char": 759244
+              },
+              {
+                "id": 2,
+                "start_char": 759246,
+                "end_char": 783590
+              }
+            ]
+          },
+          {
+            "id": 79,
+            "title": "CHAPTER 82. The Honor and Glory of Whaling.",
+            "start_char": 783595,
+            "end_char": 790099,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 783595,
+                "end_char": 783638
+              },
+              {
+                "id": 2,
+                "start_char": 783640,
+                "end_char": 790094
+              }
+            ]
+          },
+          {
+            "id": 80,
+            "title": "CHAPTER 83. Jonah Historically Regarded.",
+            "start_char": 790099,
+            "end_char": 794634,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 790099,
+                "end_char": 790139
+              },
+              {
+                "id": 2,
+                "start_char": 790141,
+                "end_char": 794629
+              }
+            ]
+          },
+          {
+            "id": 81,
+            "title": "CHAPTER 84. Pitchpoling.",
+            "start_char": 794634,
+            "end_char": 799320,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 794634,
+                "end_char": 794658
+              },
+              {
+                "id": 2,
+                "start_char": 794660,
+                "end_char": 799315
+              }
+            ]
+          },
+          {
+            "id": 82,
+            "title": "CHAPTER 85. The Fountain.",
+            "start_char": 799320,
+            "end_char": 810783,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 799320,
+                "end_char": 799345
+              },
+              {
+                "id": 2,
+                "start_char": 799347,
+                "end_char": 810778
+              }
+            ]
+          },
+          {
+            "id": 83,
+            "title": "CHAPTER 86. The Tail.",
+            "start_char": 810783,
+            "end_char": 821209,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 810783,
+                "end_char": 810804
+              },
+              {
+                "id": 2,
+                "start_char": 810806,
+                "end_char": 821204
+              }
+            ]
+          },
+          {
+            "id": 84,
+            "title": "CHAPTER 87. The Grand Armada.",
+            "start_char": 821209,
+            "end_char": 848882,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 821209,
+                "end_char": 821238
+              },
+              {
+                "id": 2,
+                "start_char": 821240,
+                "end_char": 848877
+              }
+            ]
+          },
+          {
+            "id": 85,
+            "title": "CHAPTER 88. Schools and Schoolmasters.",
+            "start_char": 848882,
+            "end_char": 855992,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 848882,
+                "end_char": 848920
+              },
+              {
+                "id": 2,
+                "start_char": 848922,
+                "end_char": 855987
+              }
+            ]
+          },
+          {
+            "id": 86,
+            "title": "CHAPTER 89. Fast-Fish and Loose-Fish.",
+            "start_char": 855992,
+            "end_char": 864165,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 855992,
+                "end_char": 856029
+              },
+              {
+                "id": 2,
+                "start_char": 856031,
+                "end_char": 864160
+              }
+            ]
+          },
+          {
+            "id": 87,
+            "title": "CHAPTER 90. Heads or Tails.",
+            "start_char": 864165,
+            "end_char": 870053,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 864165,
+                "end_char": 864192
+              },
+              {
+                "id": 2,
+                "start_char": 864194,
+                "end_char": 870048
+              }
+            ]
+          },
+          {
+            "id": 88,
+            "title": "CHAPTER 91. The Pequod Meets The Rose-Bud.",
+            "start_char": 870053,
+            "end_char": 884109,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 870053,
+                "end_char": 870095
+              },
+              {
+                "id": 2,
+                "start_char": 870097,
+                "end_char": 884104
+              }
+            ]
+          },
+          {
+            "id": 89,
+            "title": "CHAPTER 92. Ambergris.",
+            "start_char": 884109,
+            "end_char": 889630,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 884109,
+                "end_char": 884131
+              },
+              {
+                "id": 2,
+                "start_char": 884133,
+                "end_char": 889625
+              }
+            ]
+          },
+          {
+            "id": 90,
+            "title": "CHAPTER 93. The Castaway.",
+            "start_char": 889630,
+            "end_char": 898882,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 889630,
+                "end_char": 889655
+              },
+              {
+                "id": 2,
+                "start_char": 889657,
+                "end_char": 898877
+              }
+            ]
+          },
+          {
+            "id": 91,
+            "title": "CHAPTER 94. A Squeeze of the Hand.",
+            "start_char": 898882,
+            "end_char": 906187,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 898882,
+                "end_char": 898916
+              },
+              {
+                "id": 2,
+                "start_char": 898918,
+                "end_char": 906182
+              }
+            ]
+          },
+          {
+            "id": 92,
+            "title": "CHAPTER 95. The Cassock.",
+            "start_char": 906187,
+            "end_char": 909012,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 906187,
+                "end_char": 906211
+              },
+              {
+                "id": 2,
+                "start_char": 906213,
+                "end_char": 909007
+              }
+            ]
+          },
+          {
+            "id": 93,
+            "title": "CHAPTER 96. The Try-Works.",
+            "start_char": 909012,
+            "end_char": 919266,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 909012,
+                "end_char": 909038
+              },
+              {
+                "id": 2,
+                "start_char": 909040,
+                "end_char": 919261
+              }
+            ]
+          },
+          {
+            "id": 94,
+            "title": "CHAPTER 98. Stowing Down and Clearing Up.",
+            "start_char": 920621,
+            "end_char": 926440,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 920621,
+                "end_char": 920662
+              },
+              {
+                "id": 2,
+                "start_char": 920664,
+                "end_char": 926435
+              }
+            ]
+          },
+          {
+            "id": 95,
+            "title": "CHAPTER 99. The Doubloon.",
+            "start_char": 926440,
+            "end_char": 939785,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 926440,
+                "end_char": 926465
+              },
+              {
+                "id": 2,
+                "start_char": 926467,
+                "end_char": 939780
+              }
+            ]
+          },
+          {
+            "id": 96,
+            "title": "CHAPTER 100. Leg and Arm.",
+            "start_char": 939785,
+            "end_char": 954653,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 939785,
+                "end_char": 939810
+              },
+              {
+                "id": 2,
+                "start_char": 939812,
+                "end_char": 939874
+              },
+              {
+                "id": 3,
+                "start_char": 939876,
+                "end_char": 954648
+              }
+            ]
+          },
+          {
+            "id": 97,
+            "title": "CHAPTER 101. The Decanter.",
+            "start_char": 954653,
+            "end_char": 964572,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 954653,
+                "end_char": 954679
+              },
+              {
+                "id": 2,
+                "start_char": 954681,
+                "end_char": 964567
+              }
+            ]
+          },
+          {
+            "id": 98,
+            "title": "CHAPTER 102. A Bower in the Arsacides.",
+            "start_char": 964572,
+            "end_char": 973647,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 964572,
+                "end_char": 964610
+              },
+              {
+                "id": 2,
+                "start_char": 964612,
+                "end_char": 973642
+              }
+            ]
+          },
+          {
+            "id": 99,
+            "title": "CHAPTER 103. Measurement of The Whale’s Skeleton.",
+            "start_char": 973647,
+            "end_char": 978849,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 973647,
+                "end_char": 973696
+              },
+              {
+                "id": 2,
+                "start_char": 973698,
+                "end_char": 978844
+              }
+            ]
+          },
+          {
+            "id": 100,
+            "title": "CHAPTER 104. The Fossil Whale.",
+            "start_char": 978849,
+            "end_char": 987223,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 978849,
+                "end_char": 978879
+              },
+              {
+                "id": 2,
+                "start_char": 978881,
+                "end_char": 987218
+              }
+            ]
+          },
+          {
+            "id": 101,
+            "title": "CHAPTER 105. Does the Whale’s Magnitude Diminish?—Will He Perish?",
+            "start_char": 987223,
+            "end_char": 996292,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 987223,
+                "end_char": 987288
+              },
+              {
+                "id": 2,
+                "start_char": 987290,
+                "end_char": 996287
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "title": "CHAPTER 106. Ahab’s Leg.",
+            "start_char": 996292,
+            "end_char": 1001750,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 996292,
+                "end_char": 996316
+              },
+              {
+                "id": 2,
+                "start_char": 996318,
+                "end_char": 1001745
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "title": "CHAPTER 107. The Carpenter.",
+            "start_char": 1001750,
+            "end_char": 1007981,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1001750,
+                "end_char": 1001777
+              },
+              {
+                "id": 2,
+                "start_char": 1001779,
+                "end_char": 1007976
+              }
+            ]
+          },
+          {
+            "id": 104,
+            "title": "CHAPTER 108. Ahab and the Carpenter.",
+            "start_char": 1007981,
+            "end_char": 1016515,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1007981,
+                "end_char": 1008017
+              },
+              {
+                "id": 2,
+                "start_char": 1008019,
+                "end_char": 1008046
+              },
+              {
+                "id": 3,
+                "start_char": 1008048,
+                "end_char": 1016510
+              }
+            ]
+          },
+          {
+            "id": 105,
+            "title": "CHAPTER 109. Ahab and Starbuck in the Cabin.",
+            "start_char": 1016515,
+            "end_char": 1021615,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1016515,
+                "end_char": 1016559
+              },
+              {
+                "id": 2,
+                "start_char": 1016561,
+                "end_char": 1021610
+              }
+            ]
+          },
+          {
+            "id": 106,
+            "title": "CHAPTER 110. Queequeg in His Coffin.",
+            "start_char": 1021615,
+            "end_char": 1034173,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1021615,
+                "end_char": 1021651
+              },
+              {
+                "id": 2,
+                "start_char": 1021653,
+                "end_char": 1034168
+              }
+            ]
+          },
+          {
+            "id": 107,
+            "title": "CHAPTER 111. The Pacific.",
+            "start_char": 1034173,
+            "end_char": 1036683,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1034173,
+                "end_char": 1034198
+              },
+              {
+                "id": 2,
+                "start_char": 1034200,
+                "end_char": 1036678
+              }
+            ]
+          },
+          {
+            "id": 108,
+            "title": "CHAPTER 112. The Blacksmith.",
+            "start_char": 1036683,
+            "end_char": 1042237,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1036683,
+                "end_char": 1036711
+              },
+              {
+                "id": 2,
+                "start_char": 1036713,
+                "end_char": 1042232
+              }
+            ]
+          },
+          {
+            "id": 109,
+            "title": "CHAPTER 113. The Forge.",
+            "start_char": 1042237,
+            "end_char": 1049085,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1042237,
+                "end_char": 1042260
+              },
+              {
+                "id": 2,
+                "start_char": 1042262,
+                "end_char": 1049080
+              }
+            ]
+          },
+          {
+            "id": 110,
+            "title": "CHAPTER 114. The Gilder.",
+            "start_char": 1049085,
+            "end_char": 1052853,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1049085,
+                "end_char": 1049109
+              },
+              {
+                "id": 2,
+                "start_char": 1049111,
+                "end_char": 1052848
+              }
+            ]
+          },
+          {
+            "id": 111,
+            "title": "CHAPTER 115. The Pequod Meets The Bachelor.",
+            "start_char": 1052853,
+            "end_char": 1058010,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1052853,
+                "end_char": 1052896
+              },
+              {
+                "id": 2,
+                "start_char": 1052898,
+                "end_char": 1058005
+              }
+            ]
+          },
+          {
+            "id": 112,
+            "title": "CHAPTER 116. The Dying Whale.",
+            "start_char": 1058010,
+            "end_char": 1061006,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1058010,
+                "end_char": 1058039
+              },
+              {
+                "id": 2,
+                "start_char": 1058041,
+                "end_char": 1061001
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "title": "CHAPTER 117. The Whale Watch.",
+            "start_char": 1061006,
+            "end_char": 1063542,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1061006,
+                "end_char": 1061035
+              },
+              {
+                "id": 2,
+                "start_char": 1061037,
+                "end_char": 1063537
+              }
+            ]
+          },
+          {
+            "id": 114,
+            "title": "CHAPTER 118. The Quadrant.",
+            "start_char": 1063542,
+            "end_char": 1068592,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1063542,
+                "end_char": 1063568
+              },
+              {
+                "id": 2,
+                "start_char": 1063570,
+                "end_char": 1068587
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "title": "CHAPTER 119. The Candles.",
+            "start_char": 1068592,
+            "end_char": 1082603,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1068592,
+                "end_char": 1068617
+              },
+              {
+                "id": 2,
+                "start_char": 1068619,
+                "end_char": 1070634
+              },
+              {
+                "id": 3,
+                "start_char": 1070638,
+                "end_char": 1070801
+              },
+              {
+                "id": 4,
+                "start_char": 1070805,
+                "end_char": 1082598
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "title": "CHAPTER 121. Midnight.—The Forecastle Bulwarks.",
+            "start_char": 1083637,
+            "end_char": 1087079,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1083637,
+                "end_char": 1083684
+              },
+              {
+                "id": 2,
+                "start_char": 1083686,
+                "end_char": 1087074
+              }
+            ]
+          },
+          {
+            "id": 117,
+            "title": "CHAPTER 123. The Musket.",
+            "start_char": 1087378,
+            "end_char": 1094178,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1087378,
+                "end_char": 1087402
+              },
+              {
+                "id": 2,
+                "start_char": 1087404,
+                "end_char": 1094173
+              }
+            ]
+          },
+          {
+            "id": 118,
+            "title": "CHAPTER 124. The Needle.",
+            "start_char": 1094178,
+            "end_char": 1101133,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1094178,
+                "end_char": 1094202
+              },
+              {
+                "id": 2,
+                "start_char": 1094204,
+                "end_char": 1101128
+              }
+            ]
+          },
+          {
+            "id": 119,
+            "title": "CHAPTER 125. The Log and Line.",
+            "start_char": 1101133,
+            "end_char": 1107281,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1101133,
+                "end_char": 1101163
+              },
+              {
+                "id": 2,
+                "start_char": 1101165,
+                "end_char": 1107276
+              }
+            ]
+          },
+          {
+            "id": 120,
+            "title": "CHAPTER 126. The Life-Buoy.",
+            "start_char": 1107281,
+            "end_char": 1114790,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1107281,
+                "end_char": 1107308
+              },
+              {
+                "id": 2,
+                "start_char": 1107310,
+                "end_char": 1114785
+              }
+            ]
+          },
+          {
+            "id": 121,
+            "title": "CHAPTER 127. The Deck.",
+            "start_char": 1114790,
+            "end_char": 1118709,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1114790,
+                "end_char": 1114812
+              },
+              {
+                "id": 2,
+                "start_char": 1114814,
+                "end_char": 1118704
+              }
+            ]
+          },
+          {
+            "id": 122,
+            "title": "CHAPTER 128. The Pequod Meets The Rachel.",
+            "start_char": 1118709,
+            "end_char": 1126553,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1118709,
+                "end_char": 1118750
+              },
+              {
+                "id": 2,
+                "start_char": 1118752,
+                "end_char": 1126548
+              }
+            ]
+          },
+          {
+            "id": 123,
+            "title": "CHAPTER 129. The Cabin.",
+            "start_char": 1126553,
+            "end_char": 1129590,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1126553,
+                "end_char": 1126576
+              },
+              {
+                "id": 2,
+                "start_char": 1126578,
+                "end_char": 1129585
+              }
+            ]
+          },
+          {
+            "id": 124,
+            "title": "CHAPTER 130. The Hat.",
+            "start_char": 1129590,
+            "end_char": 1139199,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1129590,
+                "end_char": 1129611
+              },
+              {
+                "id": 2,
+                "start_char": 1129613,
+                "end_char": 1139194
+              }
+            ]
+          },
+          {
+            "id": 125,
+            "title": "CHAPTER 131. The Pequod Meets The Delight.",
+            "start_char": 1139199,
+            "end_char": 1141676,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1139199,
+                "end_char": 1139241
+              },
+              {
+                "id": 2,
+                "start_char": 1139243,
+                "end_char": 1141671
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "title": "CHAPTER 132. The Symphony.",
+            "start_char": 1141676,
+            "end_char": 1150453,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1141676,
+                "end_char": 1141702
+              },
+              {
+                "id": 2,
+                "start_char": 1141704,
+                "end_char": 1150448
+              }
+            ]
+          },
+          {
+            "id": 127,
+            "title": "CHAPTER 133. The Chase—First Day.",
+            "start_char": 1150453,
+            "end_char": 1170783,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1150453,
+                "end_char": 1150486
+              },
+              {
+                "id": 2,
+                "start_char": 1150488,
+                "end_char": 1170778
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "title": "CHAPTER 134. The Chase—Second Day.",
+            "start_char": 1170783,
+            "end_char": 1189343,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1170783,
+                "end_char": 1170817
+              },
+              {
+                "id": 2,
+                "start_char": 1170819,
+                "end_char": 1189338
+              }
+            ]
+          },
+          {
+            "id": 129,
+            "title": "CHAPTER 135. The Chase.—Third Day.",
+            "start_char": 1189343,
+            "end_char": 1215919,
+            "paragraphss": [
+              {
+                "id": 1,
+                "start_char": 1189343,
+                "end_char": 1189377
+              },
+              {
+                "id": 2,
+                "start_char": 1189379,
+                "end_char": 1214360
+              },
+              {
+                "id": 3,
+                "start_char": 1214365,
+                "end_char": 1214373
+              },
+              {
+                "id": 4,
+                "start_char": 1214375,
+                "end_char": 1214422
+              },
+              {
+                "id": 5,
+                "start_char": 1214424,
+                "end_char": 1215919
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

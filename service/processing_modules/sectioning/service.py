@@ -6,8 +6,8 @@ from typing import Optional
 
 from .sectioning_strategy import SectioningStrategy, section_strategy_id
 from .build_sections import build as build_sections
-from carrierPidgeonAPI.service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
-from carrierPidgeonAPI.service.app.logging import logging, setup_logging
+from service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
+from service.app.logging import logging, setup_logging
 
 logger = logging.getLogger(__name__)
 
@@ -48,7 +48,7 @@ def build_and_store_sections(
     section_dir(doc_id).mkdir(parents=True, exist_ok=True)
     versions_dir(doc_id).mkdir(parents=True, exist_ok=True)
 
-    sid = f"{strategy.name}_{strategy.version}__{section_strategy_id(strategy)}"
+    sid = f"{section_strategy_id(strategy)}"
     logger.info(f"Building sections | doc={doc_id} | strategy={sid}")
 
 
@@ -63,8 +63,9 @@ def build_and_store_sections(
     meta = {
         "id": sid,
         "strategy": {
-            "name": strategy.name,
-            "version": strategy.version
+            "collection_strategy": strategy.collection_function_id,
+            "section_strategy": strategy.sectioning_function_id,
+            "subsection_strategy": strategy.subsectioning_function_id
         },
         "created_at": datetime.utcnow().isoformat() + "Z"
     }

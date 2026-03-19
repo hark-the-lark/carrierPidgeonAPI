@@ -4,9 +4,6 @@ import json
 import hashlib
 
 class SectioningStrategy(BaseModel):
-    # Identity
-    name: str
-    version: str
 
     # Structural contract
     level_names: List[str] = Field(

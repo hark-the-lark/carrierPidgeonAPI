@@ -1,12 +1,13 @@
 # docker-compose.yml
 version: "3.9"
 services:
-  bookserviceapi:
+  carrierpidgeonapi:
     build: .
     ports:
       - "8000:8000"
     volumes:
       - ./corpus:/app/corpus
-      - .:/app
+      - ./service:/app/service
     environment:
       - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app

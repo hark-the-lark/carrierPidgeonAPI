@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 
 # Set working directory
 WORKDIR /app
+COPY . /app
 
 # Copy requirements and install
 COPY requirements.txt .
