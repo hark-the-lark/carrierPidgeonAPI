@@ -20,37 +20,9 @@ The system is built with a strong emphasis on:
 - **Extensibility via registries**
 - **Separation of concerns between storage, processing, and API layers**
 
-```mermaid
-flowchart LR
 
-    Client["Client (curl / frontend / notebook)"]
 
-    API["FastAPI Service"]
-
-    subgraph Processing Modules
-        Tokenization["Tokenization"]
-        Sectioning["Sectioning"]
-    end
-
-    CorpusRaw["corpus/raw"]
-    CorpusProcessed["corpus/processed"]
-    CorpusGenerated["corpus/generated"]
-
-    Client --> API
-
-    API --> CorpusRaw
-    API --> CorpusProcessed
-    API --> CorpusGenerated
-
-    API --> Tokenization
-    API --> Sectioning
-
-    Tokenization --> CorpusProcessed
-    Sectioning --> CorpusProcessed
-
----
-
-## 🗂️ Directory Structure
+## Directory Structure
 carrierPidgeonAPI/
 │
 ├── corpus/
@@ -239,38 +211,6 @@ POST /documents/{doc_id}/sections/promote/{version_id}
 
 # 🧩 2. Sectioning Pipeline Flow
 
-This makes your registry-based design *click immediately*.
-
-```markdown
-```mermaid
-flowchart TD
-
-    Request["POST /sections/build"]
-
-    Strategy["SectioningStrategy"]
-
-    Registry1["COLLECTION_REGISTRY"]
-    Registry2["SECTIONING_REGISTRY"]
-    Registry3["SUBSECTIONING_REGISTRY"]
-
-    Build["build_sections()"]
-
-    Output["Structured JSON"]
-    Store["corpus/processed/{doc}/sections"]
-
-    Request --> Strategy
-    Strategy --> Registry1
-    Strategy --> Registry2
-    Strategy --> Registry3
-
-    Registry1 --> Build
-    Registry2 --> Build
-    Registry3 --> Build
-
-    Build --> Output
-    Output --> Store
-
----
 
 ### ✂️ Raw Text Slicing
 
@@ -286,7 +226,7 @@ POST /corpus/build
 
 Example request:
 
-```json
+
 {
   "documents": [
     {
@@ -306,37 +246,6 @@ Example request:
 
 This is especially important since it's your bridge to vectorization later.
 
-```markdown
-```mermaid
-flowchart TD
-
-    Request["POST /corpus/build"]
-
-    Input["Document Slices"]
-    Strategy["Processing Strategy"]
-
-    Raw["Load Raw Text"]
-    Slice["Apply start/end char"]
-    Process["Apply Processing"]
-
-    Aggregate["Aggregate Corpus"]
-    Hash["Compute corpus_id"]
-
-    Save["Save to corpus/generated"]
-    Response["Return corpus + metadata"]
-
-    Request --> Input
-    Request --> Strategy
-
-    Input --> Raw
-    Raw --> Slice
-    Slice --> Process
-
-    Process --> Aggregate
-    Aggregate --> Hash
-
-    Hash --> Save
-    Hash --> Response
 
 ⚙️ Running the API
 Local (Recommended for Development)
@@ -422,32 +331,3 @@ Canonical sectioning should be treated as best-known structure, not ground truth
 
 
 ---
-
-# 🧱 4. Data Layout (Optional but 🔥)
-
-This one helps future-you a LOT.
-
-```markdown
-```mermaid
-flowchart TB
-
-    corpus["corpus/"]
-
-    raw["raw/{doc_id}"]
-    processed["processed/{doc_id}"]
-    generated["generated/{corpus_id}"]
-
-    tokens["tokens/{strategy_id}.json"]
-    sections["sections/"]
-    versions["versions/{strategy_id}.json"]
-    canonical["canonical.json"]
-
-    corpus --> raw
-    corpus --> processed
-    corpus --> generated
-
-    processed --> tokens
-    processed --> sections
-
-    sections --> versions
-    sections --> canonical

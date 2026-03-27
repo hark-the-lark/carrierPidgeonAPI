@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-from .sectioning_strategy import SectioningStrategy, section_strategy_id
+from .sectioning_strategy import SectioningStrategy, section_strategy_id, COLLECTION_REGISTRY, SECTIONING_REGISTRY, SUBSECTIONING_REGISTRY
 from .build_sections import build as build_sections
 from service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
 from service.app.logging import logging, setup_logging
@@ -103,6 +103,59 @@ def promote_to_canonical(doc_id: str, version_id: str):
         encoding="utf-8"
     )
 
+
+#------- registry lookups-------
+
+def list_all_sectioning_strategies() -> dict:
+    """
+    Returns all registered strategies grouped by type.
+    """
+    logger.info("Listing all sectioning strategies")
+
+    return {
+        "collections": sorted(COLLECTION_REGISTRY.keys()),
+        "sections": sorted(SECTIONING_REGISTRY.keys()),
+        "subsections": sorted(SUBSECTIONING_REGISTRY.keys()),
+    }
+
+def list_collection_strategies() -> list[str]:
+    logger.debug("Listing collection strategies")
+    return sorted(COLLECTION_REGISTRY.keys())
+
+def list_section_strategies() -> list[str]:
+    logger.debug("Listing sectioning strategies")
+    return sorted(SECTIONING_REGISTRY.keys())
+
+def list_subsection_strategies() -> list[str]:
+    logger.debug("Listing subsection strategies")
+    return sorted(SUBSECTIONING_REGISTRY.keys())
+
+def validate_strategy_ids(
+    collection_id: str,
+    section_id: str,
+    subsection_id: str | None = None
+):
+    """
+    Ensures provided strategy IDs exist in registry.
+    Raises ValueError if not found.
+    """
+
+    if collection_id not in COLLECTION_REGISTRY:
+        logger.error(f"Invalid collection strategy: {collection_id}")
+        raise ValueError(f"Unknown collection strategy: {collection_id}")
+
+    if section_id not in SECTIONING_REGISTRY:
+        logger.error(f"Invalid sectioning strategy: {section_id}")
+        raise ValueError(f"Unknown sectioning strategy: {section_id}")
+
+    if subsection_id and subsection_id not in SUBSECTIONING_REGISTRY:
+        logger.error(f"Invalid subsection strategy: {subsection_id}")
+        raise ValueError(f"Unknown subsection strategy: {subsection_id}")
+
+    logger.debug(
+        f"Validated strategies: collection={collection_id}, "
+        f"section={section_id}, subsection={subsection_id}"
+    )    
 
 # ---------- internal ----------
 

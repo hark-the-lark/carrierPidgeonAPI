@@ -6,6 +6,8 @@ from pathlib import Path
 
 from .token_strategy import TokenizationStrategy, strategy_id
 from .preprocess_pipe import preprocess, tokenize
+from .stopwords_registry import STOPWORD_SETS
+from .tokenizer_registry import TOKENIZERS
 from service.app.corpus import load_raw_text, save_tokens, load_tokens, tokens_exist
 from service.app.logging import logging, setup_logging
 
@@ -45,3 +47,13 @@ def get_or_build_tokens(doc_id: str, strategy: TokenizationStrategy):
     logger.info(f"Token build complete | doc={doc_id}")
 
     return tokens, "built"
+
+
+
+def list_all_stopword_sets():
+    logger.debug("Listing stopword_sets")    
+    return list(STOPWORD_SETS.keys())    
+
+def list_all_tokenizers():
+    logger.debug("Listing tokenizers")
+    return list(TOKENIZERS.keys())

@@ -15,13 +15,17 @@ from pathlib import Path
 from service.app.logging import setup_logging
 from service.app.config import CORPUS_DIR, GENERATED_DIR
 from service.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
-from service.processing_modules.tokenization.service import get_or_build_tokens
+from service.processing_modules.tokenization.service import get_or_build_tokens, list_all_stopword_sets, list_all_tokenizers
 from service.processing_modules.sectioning.service import (
     get_canonical_sections,
     list_section_versions,
     get_section_version,
     build_and_store_sections,
-    promote_to_canonical
+    promote_to_canonical,
+    list_all_sectioning_strategies,
+    list_collection_strategies,
+    list_section_strategies,
+    list_subsection_strategies
 )
 from service.processing_modules.sectioning.sectioning_strategy import SectioningStrategy
 
@@ -391,3 +395,32 @@ def build_corpus(request: CorpusBuildRequest):
         metadata=metadata,
         corpus=processed_texts,
     )
+
+#---------- STRATEGY REGISTRY DISCOVERY ------------
+
+@app.get("/strategies/sections")
+def get_all_strategies():
+    return list_all_sectioning_strategies()
+
+
+@app.get("/strategies/sections/collections")
+def get_collection_strategies():
+    return list_collection_strategies()
+
+
+@app.get("/strategies/sections/sections")
+def get_section_strategies():
+    return list_section_strategies()
+
+
+@app.get("/strategies/sections/subsections")
+def get_subsection_strategies():
+    return list_subsection_strategies()
+
+@app.get("/strategies/tokenizers")
+def get_tokinzers():
+    return list_all_tokenizers()
+
+@app.get("/strategies/stopwords")
+def get_stopword_sets():
+    return list_all_stopword_sets()
