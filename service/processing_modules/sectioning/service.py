@@ -4,7 +4,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-from .sectioning_strategy import SectioningStrategy, section_strategy_id, COLLECTION_REGISTRY, SECTIONING_REGISTRY, SUBSECTIONING_REGISTRY
+from .sectioning_strategy import SectioningStrategy, section_strategy_id
+from .sectioning_registry import COLLECTION_REGISTRY, SECTIONING_REGISTRY, SUBSECTIONING_REGISTRY
 from .build_sections import build as build_sections
 from service.app.corpus import section_dir, index_path, versions_dir, sections_canonical_path
 from service.app.logging import logging, setup_logging

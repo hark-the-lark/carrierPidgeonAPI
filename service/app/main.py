@@ -343,7 +343,7 @@ def build_corpus(request: CorpusBuildRequest):
             f"[{doc_slice.start_char}:{doc_slice.end_char}]"
         )
 
-        raw_text = compute_strategy_id(doc_slice.doc_id)
+        raw_text = load_raw_text(doc_slice.doc_id)
 
         if doc_slice.end_char > len(raw_text):
             raise HTTPException(

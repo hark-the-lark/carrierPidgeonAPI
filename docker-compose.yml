@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./corpus:/app/corpus
+      - /home/eseantatum/data/carrierpidgeoncorpus:/app/corpus 
       - ./service:/app/service
     environment:
       - PYTHONUNBUFFERED=1
