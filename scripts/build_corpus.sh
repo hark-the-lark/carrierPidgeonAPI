@@ -9,7 +9,6 @@ documents_json="["
 
 while true; do
   read -p "Enter doc_id (or press ENTER to finish): " doc_id
-
   if [ -z "$doc_id" ]; then
     break
   fi
@@ -25,10 +24,9 @@ while true; do
 },
 EOF
 )
-
 done
 
-# Remove trailing comma safely
+# Remove trailing comma
 documents_json=$(echo "$documents_json" | sed '$ s/,$//')
 documents_json+="]"
 
@@ -38,6 +36,41 @@ echo "=== Processing Strategy ==="
 
 read -p "Strategy name (e.g. identity): " strategy_name
 read -p "Strategy version (e.g. v1): " strategy_version
+read -p "lowercase (true/false, optional): " lowercase
+read -p "remove punctuation (true/false, optional): " remove_punctuation
+read -p "special character regex (optional): " special_char_pattern
+read -p "stopword set name (optional): " stopword_set
+read -p "tokenizer name (optional): " tokenizer
+
+# ---- Build processing_strategy dynamically ----
+processing_json="{"
+
+# required fields
+processing_json+="\"name\": \"$strategy_name\","
+processing_json+="\"version\": \"$strategy_version\""
+
+# optional fields
+if [ -n "$lowercase" ]; then
+  processing_json+=", \"lowercase\": $lowercase"
+fi
+
+if [ -n "$remove_punctuation" ]; then
+  processing_json+=", \"remove_punctuation\": $remove_punctuation"
+fi
+
+if [ -n "$special_char_pattern" ]; then
+  processing_json+=", \"special_char_pattern\": \"$special_char_pattern\""
+fi
+
+if [ -n "$stopword_set" ]; then
+  processing_json+=", \"stopword_set\": \"$stopword_set\""
+fi
+
+if [ -n "$tokenizer" ]; then
+  processing_json+=", \"tokenizer\": \"$tokenizer\""
+fi
+
+processing_json+="}"
 
 # ---- Persist flag ----
 read -p "Persist corpus? (y/n): " persist_input
@@ -48,14 +81,11 @@ else
   persist=false
 fi
 
-# ---- Build final JSON ----
+# ---- Build final payload ----
 payload=$(cat <<EOF
 {
   "documents": $documents_json,
-  "processing_strategy": {
-    "name": "$strategy_name",
-    "version": "$strategy_version"
-  },
+  "processing_strategy": $processing_json,
   "persist": $persist
 }
 EOF

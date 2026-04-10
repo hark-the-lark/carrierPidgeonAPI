@@ -28,9 +28,11 @@ def preprocess(text: str, strategy: TokenizationStrategy) -> str:
 
 
 def tokenize(text: str, strategy: TokenizationStrategy):
-    tokenizer = get_tokenizer(strategy.name)
-    tokens = tokenizer(text)
-
+    tokenizer = get_tokenizer(strategy.tokenizer)
+    if tokenizer != None:
+        tokens = tokenizer(text)
+    else:
+        tokens = text.split(" ")
     if strategy.stopword_set:
         stopwords = get_stopwords(strategy.stopword_set)
         tokens = [t for t in tokens if t not in stopwords]
@@ -50,15 +52,3 @@ def remove_punctuation(text: str) -> str:
 def remove_special_chars(text: str, pattern: str) -> str:
     return re.sub(pattern, "", text)
 
-
-
-if __name__ == "__main__":
-    import sys
-    strategy = TokenizationStrategy(
-        name=sys.argv[2] if len(sys.argv) > 2 else "whitespace",
-        version= sys.argv[3] if len(sys.argv) > 3 else "v1",
-        lowercase= sys.argv[4].lower() == 'true' if len(sys.argv) > 4 else True,
-        remove_punctuation= sys.argv[5].lower() == 'true' if len(sys.argv) > 5 else True,
-        extra={}
-    )
-    build_tokens(sys.argv[1], strategy)

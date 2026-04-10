@@ -37,14 +37,14 @@ class CorpusBuildRequest(BaseModel):
 class CorpusMetadata(BaseModel):
     corpus_id: str
     documents: List[DocumentSlice]
-    processing_strategy: str
-    created_at: datetime
+    processing_strategy: TokenizationStrategy
+    created_at: str
     total_characters: int
 
 
 class CorpusBuildResponse(BaseModel):
     metadata: CorpusMetadata
-    corpus: List[str]
+    corpus: str
 
 
 def compute_corpus_id(fingerprint: str) -> str:

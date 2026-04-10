@@ -11,6 +11,7 @@ class TokenizationStrategy(BaseModel):
     remove_punctuation: bool
     special_char_pattern: str | None = None
     stopword_set: str | None = None
+    tokenizer: None | str
     extra: Dict = {}
 
 def strategy_id(strategy: TokenizationStrategy) -> str:

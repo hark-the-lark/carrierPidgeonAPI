@@ -48,7 +48,13 @@ def get_or_build_tokens(doc_id: str, strategy: TokenizationStrategy):
 
     return tokens, "built"
 
+def service_build_tokens(text: str, strategy: TokenizationStrategy):
+    clean = preprocess(text, strategy)
+    tokens = tokenize(clean, strategy)
 
+    logger.debug(f"Built {len(tokens)} tokens")
+
+    return tokens
 
 def list_all_stopword_sets():
     logger.debug("Listing stopword_sets")    

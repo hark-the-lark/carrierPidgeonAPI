@@ -15,7 +15,7 @@ from pathlib import Path
 from service.app.logging import setup_logging
 from service.app.config import CORPUS_DIR, GENERATED_DIR
 from service.processing_modules.tokenization.token_strategy import TokenizationStrategy, strategy_id as compute_strategy_id
-from service.processing_modules.tokenization.service import get_or_build_tokens, list_all_stopword_sets, list_all_tokenizers
+from service.processing_modules.tokenization.service import get_or_build_tokens, list_all_stopword_sets, list_all_tokenizers, service_build_tokens
 from service.processing_modules.sectioning.service import (
     get_canonical_sections,
     list_section_versions,
@@ -326,12 +326,14 @@ def promote_section_version(doc_id: str, version_id: str):
             detail="Section version not found"
         )
 
+from pathlib import Path
+
 @app.post("/corpus/build", response_model=CorpusBuildResponse)
 def build_corpus(request: CorpusBuildRequest):
 
     logger.info("Starting corpus build")
 
-    processor = request.processing_strategy
+    strategy = request.processing_strategy
 
     processed_texts = []
     fingerprint_parts = []
@@ -346,6 +348,9 @@ def build_corpus(request: CorpusBuildRequest):
         raw_text = load_raw_text(doc_slice.doc_id)
 
         if doc_slice.end_char > len(raw_text):
+            logger.error(
+                f"Slice exceeds document length for {doc_slice.doc_id}"
+            )
             raise HTTPException(
                 status_code=400,
                 detail=f"Slice exceeds document length for {doc_slice.doc_id}"
@@ -353,13 +358,13 @@ def build_corpus(request: CorpusBuildRequest):
 
         slice_text = raw_text[doc_slice.start_char:doc_slice.end_char]
 
-        processed = processor(slice_text)
+        processed = service_build_tokens(slice_text, strategy)
         processed_texts.append(processed)
 
         total_characters += len(processed)
 
         fingerprint_parts.append(
-            f"{doc_slice.doc_id}:{doc_slice.start_char}:{doc_slice.end_char}:{request.processing_strategy}"
+            f"{doc_slice.doc_id}:{doc_slice.start_char}:{doc_slice.end_char}:{strategy}"
         )
 
     fingerprint = "|".join(fingerprint_parts)
@@ -369,7 +374,7 @@ def build_corpus(request: CorpusBuildRequest):
         corpus_id=corpus_id,
         documents=request.documents,
         processing_strategy=request.processing_strategy,
-        created_at=datetime.utcnow(),
+        created_at=str(datetime.utcnow()),
         total_characters=total_characters,
     )
 
@@ -378,22 +383,34 @@ def build_corpus(request: CorpusBuildRequest):
 
         logger.info(f"Persisting corpus to {output_path}")
 
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(
-                {
-                    "metadata": metadata.dict(),
-                    "corpus": processed_texts,
-                },
-                f,
-                ensure_ascii=False,
-                indent=2,
-            )
+        try:
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            logger.info(f"Ensured directory exists: {output_path.parent}")
+        except Exception as e:
+            logger.error(f"Failed to create directory: {e}")
+            raise
+
+        try:
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(
+                    {
+                        "metadata": metadata.dict(),
+                        "corpus": processed_texts,
+                    },
+                    f,
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            logger.info(f"Successfully wrote corpus file: {output_path}")
+        except Exception as e:
+            logger.error(f"Failed to write corpus file: {e}")
+            raise
 
     logger.info(f"Corpus build complete: {corpus_id}")
 
     return CorpusBuildResponse(
         metadata=metadata,
-        corpus=processed_texts,
+        corpus=str(processed_texts),
     )
 
 #---------- STRATEGY REGISTRY DISCOVERY ------------
